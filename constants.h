@@ -58,6 +58,7 @@ enum{
 
 //general_constants
 enum{
+    BROKER = 0,
     AM_MY_MSG = 6,
     MAX_CLIENTS = 8
 };
