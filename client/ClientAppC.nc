@@ -16,7 +16,8 @@ implementation {
   components new AMSenderC(AM_MY_MSG);
   components new AMReceiverC(AM_MY_MSG);
   components ActiveMessageC;
-  components new TimerMilliC();
+  components new TimerMilliC() as BootTimer;
+  components new TimerMilliC() as ReadTimer;
   components new FakeSensorC();
 
   //Boot interface
@@ -35,7 +36,8 @@ implementation {
   App.PacketAcknowledgements->ActiveMessageC;
 
   //Timer interface
-  App.MilliTimer -> TimerMilliC;
+  App.BootTimer -> BootTimer;
+  App.ReadTimer -> ReadTimer;
 
   //Fake Sensor reads a random number
   App.Read -> FakeSensorC;
