@@ -29,8 +29,8 @@ typedef nx_struct {
 enum{	
 	LOWQ,
 	HIGHQ,
-	NOT_SUB; //used in subscription matrix to represent a missing subscription
-	NOT_CONN; //used in subscription matrix to represent an disconneted client
+	NOT_SUB, //used in subscription matrix to represent a missing subscription
+	NOT_CONN //used in subscription matrix to represent an disconneted client
 };
 
 //topics
@@ -43,11 +43,11 @@ enum{
 
 //message types
 enum{
-    CONNECT,
+    	CONNECT,
 	SUBSCRIBE,
 	PUBLISH,
 	UNSUBSCRIBE,
-	DISCONNECT,
+	DISCONNECT
 	/*
 	CONNACK,
 	SUBACK,
@@ -58,7 +58,7 @@ enum{
 
 //general_constants
 enum{
-    BROKER = 0,
+    BROKER = 9,
     AM_MY_MSG = 6,
     MAX_CLIENTS = 8
 };

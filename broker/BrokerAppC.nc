@@ -1,22 +1,22 @@
 /**
- *  Configuration file for wiring of sendAckC module to other common 
- *  components needed for proper functioning
+ *  Configuration file for Client application
  *
- *  @author Luca Pietro Borsani
+ *  @author Giuseppe Manzi
+ *  @author Vito Matarazzo
  */
 
-#include "sendAck.h"
+#define NEW_PRINTF_SEMANTICS
+#include "constants.h"
 
-configuration sendAckAppC {}
+configuration BrokerAppC {}
 
 implementation {
 
-  components MainC, sendAckC as App;
+  components MainC, BrokerC as App, SerialPrintfC;
   components new AMSenderC(AM_MY_MSG);
   components new AMReceiverC(AM_MY_MSG);
   components ActiveMessageC;
-  components new TimerMilliC();
-  components new FakeSensorC();
+  //components new TimerMilliC();
 
   //Boot interface
   App.Boot -> MainC.Boot;
@@ -34,10 +34,8 @@ implementation {
   App.PacketAcknowledgements->ActiveMessageC;
 
   //Timer interface
-  App.MilliTimer -> TimerMilliC;
+  //App.MilliTimer -> TimerMilliC;
 
-  //Fake Sensor reads a random number
-  App.Read -> FakeSensorC;
 
 }
 
