@@ -6,7 +6,7 @@
  */
 
 #define NEW_PRINTF_SEMANTICS
-#include "constants.h"
+#include "../constants.h"
 
 configuration BrokerAppC {}
 

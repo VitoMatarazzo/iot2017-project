@@ -14,7 +14,8 @@ typedef nx_struct{
 	nx_uint16_t msg_id;
 	nx_uint8_t topic;
 	nx_uint16_t data;
-	nx_uint8_t dupflag; //duplicate flag, set to true if the message is resent because the
+	nx_uint8_t qos;
+	nx_uint8_t dup_flag;     //duplicate flag, set to true if the message is resent because the
 			            //broker didn't acknowledge the original msg. Useful when QoS > 0
 } pub_msg_t;
 
@@ -43,7 +44,7 @@ enum{
 
 //message types
 enum{
-    	CONNECT,
+    CONNECT,
 	SUBSCRIBE,
 	PUBLISH,
 	UNSUBSCRIBE,
@@ -58,9 +59,9 @@ enum{
 
 //general_constants
 enum{
-    BROKER = 9,
     AM_MY_MSG = 6,
-    MAX_CLIENTS = 8
+    MAX_CLIENTS = 8,
+    BROKER
 };
 
 /*

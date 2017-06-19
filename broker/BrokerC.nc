@@ -7,7 +7,7 @@
  *  @author Vito Matarazzo
  */
 
-#include "constants.h"
+#include "../constants.h"
 #include "printf.h"
  
 
@@ -37,15 +37,16 @@ implementation {
 
 
 	//tasks can't have parameters and must return void
-	task void sendReq(){
-	  /*if(subscriptions[msg->topic][client] == 1)
+    void forwardPublishMessage(pub_msg_t *msg, uint8_t client){
+	  if(subscriptions[msg->topic][client] == 1)
 		call PacketAcknowledgements.requestAck( &packet );
 	  if(subscriptions[msg->topic][client] < NOT_SUB){
-		pub_message_t* payload_pointer=(pub_message_t*)(call Packet.getPayload(&packet,sizeof(pub_message_t)));
+		pub_msg_t* payload_pointer=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
+		printf("BROKER.forwardPublishMessage: Forwarding msg %u to client %u\n", payload_pointer->msg_id, client);
 		*payload_pointer = *msg;
-		msg->dupflag = false;
-		call AMSend.send(i, &packet, sizeof(pub_message_t));
-	  }*/
+		msg->dup_flag = 0;
+		call AMSend.send(client, &packet, sizeof(pub_msg_t));
+	  }
 	}
 	
 	//instanciate connection
@@ -56,12 +57,12 @@ implementation {
 		dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", msg->msg_type);
 		dbg_clear("radio_rec", "\n ");
 		dbg_clear("radio_pack","\n");
-		printf("BROKER: msg_type = %u\n", msg->msg_type);
+		printf("BROKER.process_conn_message: msg_type = %u\n", msg->msg_type);
 
 		for(i = 0; i < NUM_OF_TOPICS; i++){
 		    subscriptions[i][source-1] = NOT_SUB;
 		}
-		printf("BROKER: current connection status: ");
+		printf("BROKER.process_conn_message: current connection status: ");
 		for(i = 0; i < MAX_CLIENTS; i++){
 		    printf("%u ", subscriptions[0][i]);
 		}
@@ -97,11 +98,11 @@ implementation {
 		dbg_clear("radio_pack", "\t\t duplicate flag: %hhu \n", msg->dupflag);
 		dbg_clear("radio_rec", "\n");
 		dbg_clear("radio_pack","\n");
-		printf("BROKER: msg_type = %u, msg_id = %u, topic = %u, data = %u\n", msg->msg_type, 
+		printf("BROKER.process_pub_message: msg_type = %u, msg_id = %u, topic = %u, data = %u\n", msg->msg_type, 
 			msg->msg_id, msg->topic, msg->data);
 
 		for(i = 0; i < MAX_CLIENTS; i++)
-		    post sendReq();
+		    forwardPublishMessage(msg, i);
 	}
 	
 	//***************** Boot interface ********************//
@@ -113,6 +114,7 @@ implementation {
 	        } 
 	    }
 	    dbg("boot","Application booted.\n");
+	    printf("BROKER.booted: Application booted, my id is %u, broker id should be %u\n", TOS_NODE_ID, BROKER);
 	    call SplitControl.start();  //when booted, turn on the radio
 	}
 
@@ -138,7 +140,7 @@ implementation {
 	dbg("radio_rec","Message received at time %s \n", sim_time_string());
 	dbg("radio_pack",">>>Pack \n \t Payload length %hhu \n",
 	        call Packet.payloadLength( buf ) );
-	dbg_clear("radio_pack","\t Source: %hhu \n",call AMPacket.source( buf ) );
+	dbg_clear("radio_pack","\t Source: %hhu \n", call AMPacket.source( buf ) );
 	dbg_clear("radio_pack","\t Destination: %hhu \n", call AMPacket.destination( buf ) );
 	printf("BROKER: Message received:\nSource = %u, Destination = %u\n",
 		call AMPacket.source( buf ), call AMPacket.destination( buf ) );
@@ -173,13 +175,17 @@ implementation {
 
 		
 		if( &packet == buf && err == SUCCESS ) {
+		    
 			dbg("radio_send", "Packet sent...");
 
 			if ( call PacketAcknowledgements.wasAcked( buf ) ) {
 			  dbg_clear("radio_ack", "and ack received");
-			} else {
+			} 
+			else {
+			  pub_msg_t* msg=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));  
 			  dbg_clear("radio_ack", "but ack was not received");
-			  post sendReq();
+			  msg->dup_flag = 1;
+			  call AMSend.send(call AMPacket.source( buf ), &packet, sizeof(pub_msg_t));
 			}
 			dbg_clear("radio_send", " at time %s \n", sim_time_string());
 		}
