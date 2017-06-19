@@ -30,6 +30,7 @@ module ClientC {
 
 implementation {
     message_t packet;
+    //bool radio_busy = FALSE; TODO: forse qui non serve perchè facciamo nuove send solo dopo la sendDone
     uint8_t sent_msg_type;
     uint8_t my_topic;
     uint16_t msg_cnt;
@@ -89,7 +90,6 @@ implementation {
     event void AMSend.sendDone(message_t* buf, error_t err) {
         
 	    if(&packet == buf && err == SUCCESS ) {
-	        
 	        dbg("radio", "Packet sent with type = %hu...", sent_msg_type);
 	        printf("CLIENT.sendDone: Packet sent with type = %u...", sent_msg_type);
             //now check the type of message
@@ -183,7 +183,7 @@ implementation {
 		    pub_msg_t* msg = (pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
 		    msg->msg_type = PUBLISH;
 		    sent_msg_type = PUBLISH;
-		    msg->msg_id = msg_cnt;
+		    msg->msg_id = TOS_NODE_ID*1000 + msg_cnt;
 		    msg_cnt++;
 		    msg->qos = (uint8_t) call Random.rand16()%2;
 		    msg->topic = my_topic;
@@ -202,7 +202,7 @@ implementation {
 		    sendPublish(msg);
         }
 		else {
-			dbg("radio_read", "Error while reading from sensor. Trying to read again");
+			dbg("read", "Error while reading from sensor. Trying to read again");
 			printf("CLIENT.readDone: Error while reading from sensor. Trying to read again");
 			call Read.read();
 		}
@@ -211,30 +211,32 @@ implementation {
     
     //***************************** Receive interface *****************//
     event message_t* Receive.receive(message_t* buf,void* payload, uint8_t len) {
-
-	    printf("RADIO: Received msg from source: %u \n", call AMPacket.source( buf ) );
-	    //TODO Implement receive pubish msg from broker
-	
-	    /*
-	    my_msg_t* mess=(my_msg_t*)payload;
-	    rec_id = mess->msg_id;
-
-	    dbg("radio_rec","Message received at time %s \n", sim_time_string());
-	    dbg("radio_pack",">>>Pack \n \t Payload length %hhu \n", call Packet.payloadLength( buf ) );
-	    dbg_clear("radio_pack","\t Source: %hhu \n", call AMPacket.source( buf ) );
-	    dbg_clear("radio_pack","\t Destination: %hhu \n", call AMPacket.destination( buf ) );
-	    dbg_clear("radio_pack","\t AM Type: %hhu \n", call AMPacket.type( buf ) );
-	    dbg_clear("radio_pack","\t\t Payload \n" );
-	    dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", mess->msg_type);
-	    dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", mess->msg_id);
-	    dbg_clear("radio_pack", "\t\t value: %hhu \n", mess->value);
-	    dbg_clear("radio_rec", "\n ");
-	    dbg_clear("radio_pack","\n");
-
-	    if ( mess->msg_type == REQ ) {
-		    post sendResp();
-	    } */
-
+    
+        dbg("radio_rec","Message received at time %s from source = %hhu\n", sim_time_string(), call AMPacket.source( buf ));
+	    printf("CLIENT.receive: Message received from source = %u \n", call AMPacket.source( buf ) );
+        if(len == sizeof(pub_msg_t)) {
+            pub_msg_t* msg=(pub_msg_t*)payload;
+         
+            dbg("radio_pack",">>>Pack \n \t Payload length %hhu \n", call Packet.payloadLength( buf ) );
+            dbg_clear("radio_pack","\t Destination: %hhu \n", call AMPacket.destination( buf ) );
+            dbg_clear("radio_pack","\t\t Payload \n" );
+            dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", msg->msg_type);
+            dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", msg->msg_id);
+            dbg_clear("radio_pack", "\t\t topic: %hhu \n", msg->topic);
+		    dbg_clear("radio_pack", "\t\t data: %hhu \n", msg->data);
+		    dbg_clear("radio_pack", "\t\t QoS: %hhu \n", msg->qos);
+            dbg_clear("radio_rec", "\n ");
+            dbg_clear("radio_pack","\n");
+		    printf("CLIENT.receive: Payload length = %u, Destination = %u\n", call Packet.payloadLength( &packet ),
+		        call AMPacket.destination( &packet ) );
+		    printf("CLIENT.receive: Payload>>> msg_type = %u, msg_id = %u, topic = %u, data = %u, QoS = %u\n", msg->msg_type, msg->msg_id,
+		        msg->topic, msg->data, msg->qos);
+        }
+        else{
+            dbg("radio_rec","Wrong receive!\n");
+            printf("CLIENT.receive: Wrong receive!\n");
+        }
+	    
 	    return buf;
 
     }

@@ -42,11 +42,30 @@ implementation {
 		call PacketAcknowledgements.requestAck( &packet );
 	  if(subscriptions[msg->topic][client] < NOT_SUB){
 		pub_msg_t* payload_pointer=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
-		printf("BROKER.forwardPublishMessage: Forwarding msg %u to client %u\n", payload_pointer->msg_id, client);
 		*payload_pointer = *msg;
+		printf("BROKER.forwardPublishMessage: Forwarding msg %u to client %u\n", payload_pointer->msg_id, (client+1));
 		msg->dup_flag = 0;
-		call AMSend.send(client, &packet, sizeof(pub_msg_t));
+		call AMSend.send(client+1, &packet, sizeof(pub_msg_t));
 	  }
+	}
+	
+	//forward pubblication to all the subscribers to the related topic
+	void process_pub_message(message_t* buf, pub_msg_t* msg){
+		uint8_t i;
+
+		dbg_clear("radio_pack","\t\t Payload \n" );
+		dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", msg->msg_type);
+		dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", msg->msg_id);
+		dbg_clear("radio_pack", "\t\t value: %hhu \n", msg->topic);
+		dbg_clear("radio_pack", "\t\t data: %hhu \n", msg->data);
+		dbg_clear("radio_pack", "\t\t duplicate flag: %hhu \n", msg->dupflag);
+		dbg_clear("radio_rec", "\n");
+		dbg_clear("radio_pack","\n");
+		printf("BROKER.process_pub_message: msg_type = %u, msg_id = %u, topic = %u, data = %u\n", msg->msg_type, 
+			msg->msg_id, msg->topic, msg->data);
+
+		for(i = 0; i < MAX_CLIENTS; i++)
+		    forwardPublishMessage(msg, i);
 	}
 	
 	//instanciate connection
@@ -83,27 +102,9 @@ implementation {
 		printf("BROKER: msg_type = %u, msg_id = %u, topic = %u, QoS = %u\n", msg->msg_type, 
 			msg->msg_id, msg->topic, msg->qos);
 
-		subscriptions[msg->topic][source] = msg->qos;
+		subscriptions[msg->topic][source-1] = msg->qos;
 	}
 
-	//forward pubblication to all the subscribers to the related topic
-	void process_pub_message(message_t* buf, pub_msg_t* msg){
-		uint8_t i;
-
-		dbg_clear("radio_pack","\t\t Payload \n" );
-		dbg_clear("radio_pack", "\t\t msg_type: %hhu \n", msg->msg_type);
-		dbg_clear("radio_pack", "\t\t msg_id: %hhu \n", msg->msg_id);
-		dbg_clear("radio_pack", "\t\t value: %hhu \n", msg->topic);
-		dbg_clear("radio_pack", "\t\t data: %hhu \n", msg->data);
-		dbg_clear("radio_pack", "\t\t duplicate flag: %hhu \n", msg->dupflag);
-		dbg_clear("radio_rec", "\n");
-		dbg_clear("radio_pack","\n");
-		printf("BROKER.process_pub_message: msg_type = %u, msg_id = %u, topic = %u, data = %u\n", msg->msg_type, 
-			msg->msg_id, msg->topic, msg->data);
-
-		for(i = 0; i < MAX_CLIENTS; i++)
-		    forwardPublishMessage(msg, i);
-	}
 	
 	//***************** Boot interface ********************//
 	event void Boot.booted() {
@@ -173,21 +174,28 @@ implementation {
   
 	event void AMSend.sendDone(message_t* buf, error_t err) {
 
-		
 		if( &packet == buf && err == SUCCESS ) {
 		    
+			pub_msg_t* pub_msg = (pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
 			dbg("radio_send", "Packet sent...");
-
-			if ( call PacketAcknowledgements.wasAcked( buf ) ) {
-			  dbg_clear("radio_ack", "and ack received");
-			} 
-			else {
-			  pub_msg_t* msg=(pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));  
-			  dbg_clear("radio_ack", "but ack was not received");
-			  msg->dup_flag = 1;
-			  call AMSend.send(call AMPacket.source( buf ), &packet, sizeof(pub_msg_t));
-			}
-			dbg_clear("radio_send", " at time %s \n", sim_time_string());
+			printf("BROKER.sendDone: Packet sent...");
+				
+		    if(pub_msg->qos != LOWQ){
+		        if ( call PacketAcknowledgements.wasAcked( buf ) ) {
+			        dbg("radio", " and ack received\n");
+			        printf(" and ack received\n");
+		        }
+		        else {
+	                dbg("radio", " but ack was not received. Trying to resend the packet again\n");
+			        printf(" but ack was not received. Trying to resend the packet again\n");
+			        pub_msg->dup_flag = 1;
+			        call AMSend.send(call AMPacket.destination (buf), &packet, sizeof(pub_msg_t));
+		        }
+		    }
+		    else {
+		        dbg("radio", " and not waiting for ack!\n");
+			    printf(" and not waiting for ack!\n");
+		    }
 		}
 
 	}
