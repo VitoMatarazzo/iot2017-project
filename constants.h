@@ -46,29 +46,26 @@ enum{
 enum{
     CONNECT,
 	SUBSCRIBE,
-	PUBLISH,
-	UNSUBSCRIBE,
-	DISCONNECT
-	/*
-	CONNACK,
-	SUBACK,
-	PUBACK,
-	UNSUBACK
-	*/
+	PUBLISH	
+};
+
+enum{
+    READ_PERIOD = 4000,
+    CONNECT_TIMEOUT = 500
+};
+
+//client status
+enum{
+    FREE,  //every action can be done
+    SENDING, //a publish message is being sent
+    QUEUED_VALUE //the sensor has read a new value while a send was in progress (only for client)
 };
 
 //general_constants
 enum{
     AM_MY_MSG = 6,
     MAX_CLIENTS = 8,
-    BROKER
+    BROKER //automatically set to max_client + 1
 };
 
-/*
-enum{
-	OK,
-	UNACCEPTABLE,
-	ID_REJECTED,
-	SERVER_UNAVAILABLE
-};*/
 #endif
