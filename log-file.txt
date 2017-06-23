@@ -1,0 +1,1889 @@
+00:04.158	ID:8	CLIENT.booted: Client application booted. I'm node 8, my topic is 2
+00:04.162	ID:8	CLIENT.startDone: Radio on!
+00:04.322	ID:2	CLIENT.booted: Client application booted. I'm node 2, my topic is 2
+00:04.325	ID:2	CLIENT.startDone: Radio on!
+00:04.336	ID:6	CLIENT.booted: Client application booted. I'm node 6, my topic is 0
+00:04.340	ID:6	CLIENT.startDone: Radio on!
+00:04.434	ID:4	CLIENT.booted: Client application booted. I'm node 4, my topic is 1
+00:04.438	ID:4	CLIENT.startDone: Radio on!
+00:04.468	ID:1	CLIENT.booted: Client application booted. I'm node 1, my topic is 1
+00:04.471	ID:1	CLIENT.startDone: Radio on!
+00:04.487	ID:7	CLIENT.booted: Client application booted. I'm node 7, my topic is 1
+00:04.491	ID:7	CLIENT.startDone: Radio on!
+00:04.793	ID:9	BROKER.booted: Application booted. My id is 9
+00:04.797	ID:9	BROKER.startDone: Radio on!
+00:04.801	ID:5	CLIENT.booted: Client application booted. I'm node 5, my topic is 2
+00:04.804	ID:5	CLIENT.startDone: Radio on!
+00:04.962	ID:1	CLIENT.sendConnect: Sending connect message to the broker
+00:04.964	ID:1	CLIENT.sendConnect: Connect message passed to lower layer!
+00:04.973	ID:1	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:04.973	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 1
+00:04.974	ID:1	CLIENT.subscribe: Suscribing to topic 0
+00:04.975	ID:9	BROKER.process_conn_message: msg_type = 0
+00:04.978	ID:1	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:04.980	ID:9	BROKER.process_conn_message: current connection status: 1 0 0 0 0 0 0 0 
+00:04.982	ID:1	CLIENT.sendSubscribe: Payload length = 5, Source = 1, Destination = 9
+00:04.985	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 5
+00:04.985	ID:3	CLIENT.booted: Client application booted. I'm node 3, my topic is 0
+00:04.985	ID:1	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:04.987	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 0
+00:04.988	ID:1	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:04.988	ID:3	CLIENT.startDone: Radio on!
+00:04.990	ID:1	CLIENT.subscribe: Suscribing to topic 2
+00:04.993	ID:1	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:04.996	ID:1	CLIENT.sendSubscribe: Payload length = 5, Source = 1, Destination = 9
+00:05.000	ID:1	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 2, Qos = 0
+00:05.003	ID:1	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:05.004	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 5
+00:05.007	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 2, QoS = 0
+00:05.304	ID:2	CLIENT.sendConnect: Sending connect message to the broker
+00:05.307	ID:2	CLIENT.sendConnect: Connect message passed to lower layer!
+00:05.317	ID:2	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:05.317	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 1
+00:05.319	ID:2	CLIENT.subscribe: Suscribing to topic 0
+00:05.319	ID:9	BROKER.process_conn_message: msg_type = 0
+00:05.322	ID:2	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:05.324	ID:9	BROKER.process_conn_message: current connection status: 1 1 0 0 0 0 0 0 
+00:05.326	ID:2	CLIENT.sendSubscribe: Payload length = 5, Source = 2, Destination = 9
+00:05.329	ID:2	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 1
+00:05.330	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 5
+00:05.332	ID:2	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:05.333	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 1
+00:05.334	ID:2	CLIENT.subscribe: Suscribing to topic 1
+00:05.337	ID:2	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:05.340	ID:2	CLIENT.sendSubscribe: Payload length = 5, Source = 2, Destination = 9
+00:05.344	ID:2	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 1, Qos = 1
+00:05.349	ID:2	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:05.349	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 5
+00:05.352	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 1, QoS = 1
+00:06.393	ID:4	CLIENT.sendConnect: Sending connect message to the broker
+00:06.395	ID:4	CLIENT.sendConnect: Connect message passed to lower layer!
+00:06.406	ID:4	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:06.406	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 1
+00:06.408	ID:4	CLIENT.subscribe: Suscribing to topic 0
+00:06.408	ID:9	BROKER.process_conn_message: msg_type = 0
+00:06.411	ID:4	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:06.413	ID:9	BROKER.process_conn_message: current connection status: 1 1 0 1 0 0 0 0 
+00:06.415	ID:4	CLIENT.sendSubscribe: Payload length = 5, Source = 4, Destination = 9
+00:06.418	ID:4	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 1
+00:06.420	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 5
+00:06.421	ID:4	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:06.423	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 1
+00:06.423	ID:4	CLIENT.subscribe: Suscribing to topic 2
+00:06.426	ID:4	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:06.430	ID:4	CLIENT.sendSubscribe: Payload length = 5, Source = 4, Destination = 9
+00:06.434	ID:4	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 2, Qos = 0
+00:06.435	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 5
+00:06.436	ID:4	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:06.438	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 2, QoS = 0
+00:06.455	ID:3	CLIENT.sendConnect: Sending connect message to the broker
+00:06.458	ID:3	CLIENT.sendConnect: Connect message passed to lower layer!
+00:06.466	ID:3	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:06.467	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 1
+00:06.468	ID:3	CLIENT.subscribe: Suscribing to topic 1
+00:06.469	ID:9	BROKER.process_conn_message: msg_type = 0
+00:06.472	ID:3	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:06.474	ID:9	BROKER.process_conn_message: current connection status: 1 1 1 1 0 0 0 0 
+00:06.476	ID:3	CLIENT.sendSubscribe: Payload length = 5, Source = 3, Destination = 9
+00:06.479	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 5
+00:06.479	ID:3	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 1, Qos = 0
+00:06.481	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 1, QoS = 0
+00:06.482	ID:3	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:06.483	ID:3	CLIENT.subscribe: Suscribing to topic 2
+00:06.487	ID:3	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:06.491	ID:3	CLIENT.sendSubscribe: Payload length = 5, Source = 3, Destination = 9
+00:06.494	ID:3	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 2, Qos = 1
+00:06.495	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 5
+00:06.497	ID:3	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:06.497	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 2, QoS = 1
+00:07.248	ID:5	CLIENT.sendConnect: Sending connect message to the broker
+00:07.250	ID:5	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.263	ID:5	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:07.264	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 1
+00:07.265	ID:5	CLIENT.subscribe: Suscribing to topic 0
+00:07.265	ID:9	BROKER.process_conn_message: msg_type = 0
+00:07.268	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.270	ID:9	BROKER.process_conn_message: current connection status: 1 1 1 1 1 0 0 0 
+00:07.271	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.271	ID:6	CLIENT.sendConnect: Sending connect message to the broker
+00:07.274	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:07.275	ID:6	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.286	ID:6	CLIENT.sendDone: Packet sent with type = 0... but ack was not received
+00:07.286	ID:5	CLIENT.sendDone: Packet sent with type = 1... but ack was not received
+00:07.288	ID:6	CLIENT.sendConnect: Sending connect message to the broker
+00:07.289	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.290	ID:6	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.293	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.296	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:07.302	ID:5	CLIENT.sendDone: Packet sent with type = 1... but ack was not received
+00:07.304	ID:6	CLIENT.sendDone: Packet sent with type = 0... but ack was not received
+00:07.305	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.306	ID:6	CLIENT.sendConnect: Sending connect message to the broker
+00:07.308	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.309	ID:6	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.312	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:07.322	ID:5	CLIENT.sendDone: Packet sent with type = 1... but ack was not received
+00:07.324	ID:6	CLIENT.sendDone: Packet sent with type = 0... but ack was not received
+00:07.325	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.326	ID:6	CLIENT.sendConnect: Sending connect message to the broker
+00:07.328	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.329	ID:6	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.331	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:07.343	ID:6	CLIENT.sendDone: Packet sent with type = 0... but ack was not received
+00:07.344	ID:6	CLIENT.sendConnect: Sending connect message to the broker
+00:07.345	ID:5	CLIENT.sendDone: Packet sent with type = 1... but ack was not received
+00:07.347	ID:6	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.348	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.351	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.355	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:07.358	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 5
+00:07.360	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 0
+00:07.363	ID:5	CLIENT.sendDone: Packet sent with type = 1... but ack was not received
+00:07.365	ID:6	CLIENT.sendDone: Packet sent with type = 0... but ack was not received
+00:07.366	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.367	ID:6	CLIENT.sendConnect: Sending connect message to the broker
+00:07.370	ID:6	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.370	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.374	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:07.376	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 5
+00:07.377	ID:5	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:07.379	ID:5	CLIENT.subscribe: Suscribing to topic 1
+00:07.379	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 0
+00:07.382	ID:5	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.383	ID:6	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:07.384	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 1
+00:07.385	ID:6	CLIENT.subscribe: Suscribing to topic 1
+00:07.386	ID:9	BROKER.process_conn_message: msg_type = 0
+00:07.386	ID:5	CLIENT.sendSubscribe: Payload length = 5, Source = 5, Destination = 9
+00:07.388	ID:6	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.389	ID:5	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 1, Qos = 0
+00:07.390	ID:9	BROKER.process_conn_message: current connection status: 1 1 1 1 1 1 0 0 
+00:07.392	ID:6	CLIENT.sendSubscribe: Payload length = 5, Source = 6, Destination = 9
+00:07.395	ID:5	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:07.396	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 5
+00:07.396	ID:6	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 1, Qos = 0
+00:07.398	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 1, QoS = 0
+00:07.403	ID:6	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:07.403	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 5
+00:07.405	ID:6	CLIENT.subscribe: Suscribing to topic 2
+00:07.406	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 1, QoS = 0
+00:07.408	ID:6	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.411	ID:6	CLIENT.sendSubscribe: Payload length = 5, Source = 6, Destination = 9
+00:07.414	ID:6	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 2, Qos = 1
+00:07.420	ID:6	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:07.421	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 5
+00:07.423	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 2, QoS = 1
+00:07.911	ID:7	CLIENT.sendConnect: Sending connect message to the broker
+00:07.914	ID:7	CLIENT.sendConnect: Connect message passed to lower layer!
+00:07.926	ID:7	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:07.927	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 1
+00:07.928	ID:7	CLIENT.subscribe: Suscribing to topic 0
+00:07.929	ID:9	BROKER.process_conn_message: msg_type = 0
+00:07.931	ID:7	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.933	ID:9	BROKER.process_conn_message: current connection status: 1 1 1 1 1 1 1 0 
+00:07.934	ID:7	CLIENT.sendSubscribe: Payload length = 5, Source = 7, Destination = 9
+00:07.937	ID:7	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 1
+00:07.944	ID:7	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:07.944	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 5
+00:07.946	ID:7	CLIENT.subscribe: Suscribing to topic 2
+00:07.947	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 1
+00:07.949	ID:7	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:07.953	ID:7	CLIENT.sendSubscribe: Payload length = 5, Source = 7, Destination = 9
+00:07.956	ID:7	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 2, Qos = 1
+00:07.956	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 5
+00:07.959	ID:7	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:07.959	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 2, QoS = 1
+00:08.070	ID:8	CLIENT.sendConnect: Sending connect message to the broker
+00:08.074	ID:8	CLIENT.sendConnect: Connect message passed to lower layer!
+00:08.078	ID:8	CLIENT.sendDone: Packet sent with type = 0... and ack received
+00:08.079	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 1
+00:08.080	ID:8	CLIENT.subscribe: Suscribing to topic 0
+00:08.081	ID:9	BROKER.process_conn_message: msg_type = 0
+00:08.083	ID:8	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:08.085	ID:9	BROKER.process_conn_message: current connection status: 1 1 1 1 1 1 1 1 
+00:08.088	ID:8	CLIENT.sendSubscribe: Payload length = 5, Source = 8, Destination = 9
+00:08.090	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 5
+00:08.091	ID:8	CLIENT.sendSubscribe: Payload>>> msg_id = 0, topic = 0, Qos = 0
+00:08.093	ID:9	BROKER: msg_type = 1, msg_id = 0, topic = 0, QoS = 0
+00:08.093	ID:8	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:08.095	ID:8	CLIENT.subscribe: Suscribing to topic 1
+00:08.098	ID:8	CLIENT.sendSubscribe: Subscribe message passed to lower layer!
+00:08.102	ID:8	CLIENT.sendSubscribe: Payload length = 5, Source = 8, Destination = 9
+00:08.106	ID:8	CLIENT.sendSubscribe: Payload>>> msg_id = 1, topic = 1, Qos = 0
+00:08.107	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 5
+00:08.109	ID:8	CLIENT.sendDone: Packet sent with type = 1... and ack received
+00:08.110	ID:9	BROKER: msg_type = 1, msg_id = 1, topic = 1, QoS = 0
+00:08.921	ID:1	CLIENT.readDone: Read the value 46480
+00:08.922	ID:1	CLIENT.readDone: Publishing the read value
+00:08.925	ID:1	CLIENT.sendPublish: Publish message passed to lower layer!
+00:08.928	ID:1	CLIENT.sendPublish: Payload length = 7, Source = 1, Destination = 9
+00:08.934	ID:1	CLIENT.sendPublish: Payload>>> msg_id = 1002, topic = 1, data = 46480, Qos = 0
+00:08.935	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 7
+00:08.937	ID:1	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:08.939	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 1002, topic = 1, data = 46480
+00:08.943	ID:9	BROKER.forwardPublishMessage: Forwarding msg 0 to client 2, with qos = 1
+00:08.952	ID:2	CLIENT.receive: Message received from source = 9 
+00:08.952	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:08.955	ID:2	CLIENT.receive: Payload length = 5, Destination = 9
+00:08.956	ID:9	BROKER.forwardPublishMessage: Forwarding msg 0 to client 3, with qos = 0
+00:08.959	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 0, topic = 1, data = 46480, QoS = 1
+00:08.971	ID:3	CLIENT.receive: Message received from source = 9 
+00:08.971	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:08.973	ID:3	CLIENT.receive: Payload length = 5, Destination = 9
+00:08.975	ID:9	BROKER.forwardPublishMessage: Forwarding msg 0 to client 5, with qos = 0
+00:08.978	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 0, topic = 1, data = 46480, QoS = 0
+00:08.990	ID:5	CLIENT.receive: Message received from source = 9 
+00:08.991	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:08.992	ID:5	CLIENT.receive: Payload length = 5, Destination = 9
+00:08.994	ID:9	BROKER.forwardPublishMessage: Forwarding msg 0 to client 6, with qos = 0
+00:08.997	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 0, topic = 1, data = 46480, QoS = 0
+00:09.005	ID:6	CLIENT.receive: Message received from source = 9 
+00:09.005	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:09.007	ID:6	CLIENT.receive: Payload length = 5, Destination = 9
+00:09.008	ID:9	BROKER.forwardPublishMessage: Forwarding msg 0 to client 8, with qos = 0
+00:09.011	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 0, topic = 1, data = 46480, QoS = 0
+00:09.020	ID:8	CLIENT.receive: Message received from source = 9 
+00:09.021	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:09.023	ID:8	CLIENT.receive: Payload length = 5, Destination = 9
+00:09.027	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 0, topic = 1, data = 46480, QoS = 0
+00:09.266	ID:2	CLIENT.readDone: Read the value 36952
+00:09.267	ID:2	CLIENT.readDone: Publishing the read value
+00:09.270	ID:2	CLIENT.sendPublish: Publish message passed to lower layer!
+00:09.273	ID:2	CLIENT.sendPublish: Payload length = 7, Source = 2, Destination = 9
+00:09.279	ID:2	CLIENT.sendPublish: Payload>>> msg_id = 2002, topic = 2, data = 36952, Qos = 0
+00:09.282	ID:2	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:09.282	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 7
+00:09.287	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 2002, topic = 2, data = 36952
+00:09.290	ID:9	BROKER.forwardPublishMessage: Forwarding msg 1 to client 1, with qos = 0
+00:09.301	ID:1	CLIENT.receive: Message received from source = 9 
+00:09.301	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:09.303	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:09.305	ID:9	BROKER.forwardPublishMessage: Forwarding msg 1 to client 3, with qos = 1
+00:09.308	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 1, topic = 2, data = 36952, QoS = 0
+00:09.316	ID:3	CLIENT.receive: Message received from source = 9 
+00:09.317	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:09.319	ID:3	CLIENT.receive: Payload length = 5, Destination = 9
+00:09.320	ID:9	BROKER.forwardPublishMessage: Forwarding msg 1 to client 4, with qos = 0
+00:09.323	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 1, topic = 2, data = 36952, QoS = 1
+00:09.331	ID:4	CLIENT.receive: Message received from source = 9 
+00:09.332	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:09.334	ID:4	CLIENT.receive: Payload length = 5, Destination = 9
+00:09.335	ID:9	BROKER.forwardPublishMessage: Forwarding msg 1 to client 6, with qos = 1
+00:09.338	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 1, topic = 2, data = 36952, QoS = 0
+00:09.350	ID:6	CLIENT.receive: Message received from source = 9 
+00:09.350	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:09.352	ID:6	CLIENT.receive: Payload length = 5, Destination = 9
+00:09.353	ID:9	BROKER.forwardPublishMessage: Forwarding msg 1 to client 7, with qos = 1
+00:09.357	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 1, topic = 2, data = 36952, QoS = 1
+00:09.365	ID:7	CLIENT.receive: Message received from source = 9 
+00:09.365	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:09.367	ID:7	CLIENT.receive: Payload length = 5, Destination = 9
+00:09.372	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 1, topic = 2, data = 36952, QoS = 1
+00:10.354	ID:4	CLIENT.readDone: Read the value 17897
+00:10.355	ID:4	CLIENT.readDone: Publishing the read value
+00:10.358	ID:4	CLIENT.sendPublish: Publish message passed to lower layer!
+00:10.363	ID:4	CLIENT.sendPublish: Payload length = 7, Source = 4, Destination = 9
+00:10.366	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 7
+00:10.367	ID:4	CLIENT.sendPublish: Payload>>> msg_id = 4002, topic = 1, data = 17897, Qos = 0
+00:10.370	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 4002, topic = 1, data = 17897
+00:10.370	ID:4	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:10.373	ID:9	BROKER.forwardPublishMessage: Forwarding msg 2 to client 2, with qos = 1
+00:10.381	ID:2	CLIENT.receive: Message received from source = 9 
+00:10.381	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:10.383	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:10.384	ID:9	BROKER.forwardPublishMessage: Forwarding msg 2 to client 3, with qos = 0
+00:10.387	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 2, topic = 1, data = 17897, QoS = 1
+00:10.394	ID:3	CLIENT.receive: Message received from source = 9 
+00:10.395	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.397	ID:3	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.398	ID:9	BROKER.forwardPublishMessage: Forwarding msg 2 to client 5, with qos = 0
+00:10.401	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 2, topic = 1, data = 17897, QoS = 0
+00:10.406	ID:5	CLIENT.receive: Message received from source = 9 
+00:10.407	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.409	ID:5	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.410	ID:9	BROKER.forwardPublishMessage: Forwarding msg 2 to client 6, with qos = 0
+00:10.413	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 2, topic = 1, data = 17897, QoS = 0
+00:10.414	ID:3	CLIENT.readDone: Read the value 27424
+00:10.416	ID:3	CLIENT.readDone: Publishing the read value
+00:10.421	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:10.422	ID:6	CLIENT.receive: Message received from source = 9 
+00:10.423	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.424	ID:6	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.424	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:10.427	ID:9	BROKER.forwardPublishMessage: Forwarding msg 2 to client 8, with qos = 0
+00:10.429	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 2, topic = 1, data = 17897, QoS = 0
+00:10.429	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3002, topic = 0, data = 27424, Qos = 0
+00:10.432	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 7
+00:10.434	ID:3	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:10.435	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:10.435	ID:8	CLIENT.receive: Message received from source = 9 
+00:10.437	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.438	ID:8	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.440	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:10.442	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 2, topic = 1, data = 17897, QoS = 0
+00:10.444	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 3, topic = 0, data = 27424
+00:10.447	ID:9	BROKER.forwardPublishMessage: Forwarding msg 3 to client 1, with qos = 0
+00:10.460	ID:1	CLIENT.receive: Message received from source = 9 
+00:10.461	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.463	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:10.464	ID:9	BROKER.forwardPublishMessage: Forwarding msg 3 to client 2, with qos = 1
+00:10.467	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 3, topic = 0, data = 27424, QoS = 0
+00:10.476	ID:2	CLIENT.receive: Message received from source = 9 
+00:10.477	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:10.479	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:10.480	ID:9	BROKER.forwardPublishMessage: Forwarding msg 3 to client 4, with qos = 1
+00:10.483	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 3, topic = 0, data = 27424, QoS = 1
+00:10.491	ID:4	CLIENT.receive: Message received from source = 9 
+00:10.491	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:10.493	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:10.495	ID:9	BROKER.forwardPublishMessage: Forwarding msg 3 to client 5, with qos = 0
+00:10.498	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 3, topic = 0, data = 27424, QoS = 1
+00:10.505	ID:5	CLIENT.receive: Message received from source = 9 
+00:10.505	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.507	ID:5	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.508	ID:9	BROKER.forwardPublishMessage: Forwarding msg 3 to client 7, with qos = 1
+00:10.511	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 3, topic = 0, data = 27424, QoS = 0
+00:10.522	ID:7	CLIENT.receive: Message received from source = 9 
+00:10.522	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:10.524	ID:7	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.525	ID:9	BROKER.forwardPublishMessage: Forwarding msg 3 to client 8, with qos = 0
+00:10.528	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 3, topic = 0, data = 27424, QoS = 1
+00:10.541	ID:8	CLIENT.receive: Message received from source = 9 
+00:10.541	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:10.543	ID:8	CLIENT.receive: Payload length = 5, Destination = 9
+00:10.548	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 3, topic = 0, data = 27424, QoS = 0
+00:11.312	ID:5	CLIENT.readDone: Read the value 37778
+00:11.314	ID:5	CLIENT.readDone: Publishing the read value
+00:11.317	ID:5	CLIENT.sendPublish: Publish message passed to lower layer!
+00:11.320	ID:5	CLIENT.sendPublish: Payload length = 7, Source = 5, Destination = 9
+00:11.325	ID:5	CLIENT.sendPublish: Payload>>> msg_id = 5002, topic = 2, data = 37778, Qos = 1
+00:11.330	ID:5	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:11.330	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 7
+00:11.335	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 5002, topic = 2, data = 37778
+00:11.338	ID:9	BROKER.forwardPublishMessage: Forwarding msg 4 to client 1, with qos = 0
+00:11.338	ID:6	CLIENT.readDone: Read the value 11306
+00:11.339	ID:6	CLIENT.readDone: Publishing the read value
+00:11.343	ID:6	CLIENT.sendPublish: Publish message passed to lower layer!
+00:11.347	ID:1	CLIENT.receive: Message received from source = 9 
+00:11.348	ID:6	CLIENT.sendPublish: Payload length = 7, Source = 6, Destination = 9
+00:11.348	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.349	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.352	ID:9	BROKER.forwardPublishMessage: Forwarding msg 4 to client 3, with qos = 1
+00:11.352	ID:6	CLIENT.sendPublish: Payload>>> msg_id = 6002, topic = 0, data = 11306, Qos = 0
+00:11.354	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 4, topic = 2, data = 37778, QoS = 0
+00:11.357	ID:6	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:11.358	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 7
+00:11.359	ID:3	CLIENT.receive: Message received from source = 9 
+00:11.360	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:11.362	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.362	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.366	ID:9	BROKER.forwardPublishMessage: Forwarding msg 4 to client 4, with qos = 0
+00:11.366	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 4, topic = 2, data = 37778, QoS = 1
+00:11.372	ID:4	CLIENT.receive: Message received from source = 9 
+00:11.373	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.375	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.376	ID:9	BROKER.forwardPublishMessage: Forwarding msg 4 to client 6, with qos = 1
+00:11.379	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 4, topic = 2, data = 37778, QoS = 0
+00:11.386	ID:6	CLIENT.receive: Message received from source = 9 
+00:11.386	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.388	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.389	ID:9	BROKER.forwardPublishMessage: Forwarding msg 4 to client 7, with qos = 1
+00:11.392	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 4, topic = 2, data = 37778, QoS = 1
+00:11.401	ID:7	CLIENT.receive: Message received from source = 9 
+00:11.401	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.404	ID:7	CLIENT.receive: Payload length = 5, Destination = 9
+00:11.404	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:11.408	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 4, topic = 2, data = 37778, QoS = 1
+00:11.408	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 5, topic = 0, data = 11306
+00:11.411	ID:9	BROKER.forwardPublishMessage: Forwarding msg 5 to client 1, with qos = 0
+00:11.424	ID:1	CLIENT.receive: Message received from source = 9 
+00:11.425	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.427	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.428	ID:9	BROKER.forwardPublishMessage: Forwarding msg 5 to client 2, with qos = 1
+00:11.431	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 5, topic = 0, data = 11306, QoS = 0
+00:11.435	ID:2	CLIENT.receive: Message received from source = 9 
+00:11.435	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.437	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.438	ID:9	BROKER.forwardPublishMessage: Forwarding msg 5 to client 4, with qos = 1
+00:11.441	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 5, topic = 0, data = 11306, QoS = 1
+00:11.449	ID:4	CLIENT.receive: Message received from source = 9 
+00:11.449	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.451	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.452	ID:9	BROKER.forwardPublishMessage: Forwarding msg 5 to client 5, with qos = 0
+00:11.456	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 5, topic = 0, data = 11306, QoS = 1
+00:11.462	ID:5	CLIENT.receive: Message received from source = 9 
+00:11.462	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.464	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.466	ID:9	BROKER.forwardPublishMessage: Forwarding msg 5 to client 7, with qos = 1
+00:11.469	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 5, topic = 0, data = 11306, QoS = 0
+00:11.477	ID:7	CLIENT.receive: Message received from source = 9 
+00:11.477	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.479	ID:7	CLIENT.receive: Payload length = 5, Destination = 9
+00:11.480	ID:9	BROKER.forwardPublishMessage: Forwarding msg 5 to client 8, with qos = 0
+00:11.484	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 5, topic = 0, data = 11306, QoS = 1
+00:11.490	ID:8	CLIENT.receive: Message received from source = 9 
+00:11.490	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.492	ID:8	CLIENT.receive: Payload length = 5, Destination = 9
+00:11.497	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 5, topic = 0, data = 11306, QoS = 0
+00:11.877	ID:7	CLIENT.readDone: Read the value 54849
+00:11.878	ID:7	CLIENT.readDone: Publishing the read value
+00:11.882	ID:7	CLIENT.sendPublish: Publish message passed to lower layer!
+00:11.886	ID:7	CLIENT.sendPublish: Payload length = 7, Source = 7, Destination = 9
+00:11.887	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 7
+00:11.890	ID:7	CLIENT.sendPublish: Payload>>> msg_id = 7002, topic = 1, data = 54849, Qos = 0
+00:11.891	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 7002, topic = 1, data = 54849
+00:11.893	ID:7	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:11.894	ID:9	BROKER.forwardPublishMessage: Forwarding msg 6 to client 2, with qos = 1
+00:11.902	ID:2	CLIENT.receive: Message received from source = 9 
+00:11.903	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:11.905	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.906	ID:9	BROKER.forwardPublishMessage: Forwarding msg 6 to client 3, with qos = 0
+00:11.909	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 6, topic = 1, data = 54849, QoS = 1
+00:11.915	ID:3	CLIENT.receive: Message received from source = 9 
+00:11.916	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.918	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.919	ID:9	BROKER.forwardPublishMessage: Forwarding msg 6 to client 5, with qos = 0
+00:11.922	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 6, topic = 1, data = 54849, QoS = 0
+00:11.934	ID:5	CLIENT.receive: Message received from source = 9 
+00:11.935	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.937	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.938	ID:9	BROKER.forwardPublishMessage: Forwarding msg 6 to client 6, with qos = 0
+00:11.941	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 6, topic = 1, data = 54849, QoS = 0
+00:11.947	ID:6	CLIENT.receive: Message received from source = 9 
+00:11.947	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.949	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:11.951	ID:9	BROKER.forwardPublishMessage: Forwarding msg 6 to client 8, with qos = 0
+00:11.954	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 6, topic = 1, data = 54849, QoS = 0
+00:11.959	ID:8	CLIENT.receive: Message received from source = 9 
+00:11.960	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:11.962	ID:8	CLIENT.receive: Payload length = 5, Destination = 9
+00:11.966	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 6, topic = 1, data = 54849, QoS = 0
+00:12.026	ID:8	CLIENT.readDone: Read the value 45321
+00:12.028	ID:8	CLIENT.readDone: Publishing the read value
+00:12.031	ID:8	CLIENT.sendPublish: Publish message passed to lower layer!
+00:12.035	ID:8	CLIENT.sendPublish: Payload length = 7, Source = 8, Destination = 9
+00:12.038	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 7
+00:12.040	ID:8	CLIENT.sendPublish: Payload>>> msg_id = 8002, topic = 2, data = 45321, Qos = 0
+00:12.043	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 8002, topic = 2, data = 45321
+00:12.043	ID:8	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:12.046	ID:9	BROKER.forwardPublishMessage: Forwarding msg 7 to client 1, with qos = 0
+00:12.055	ID:1	CLIENT.receive: Message received from source = 9 
+00:12.056	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:12.058	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.059	ID:9	BROKER.forwardPublishMessage: Forwarding msg 7 to client 3, with qos = 1
+00:12.062	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 7, topic = 2, data = 45321, QoS = 0
+00:12.071	ID:3	CLIENT.receive: Message received from source = 9 
+00:12.071	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:12.073	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.074	ID:9	BROKER.forwardPublishMessage: Forwarding msg 7 to client 4, with qos = 0
+00:12.078	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 7, topic = 2, data = 45321, QoS = 1
+00:12.082	ID:4	CLIENT.receive: Message received from source = 9 
+00:12.082	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:12.084	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.086	ID:9	BROKER.forwardPublishMessage: Forwarding msg 7 to client 6, with qos = 1
+00:12.089	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 7, topic = 2, data = 45321, QoS = 0
+00:12.096	ID:6	CLIENT.receive: Message received from source = 9 
+00:12.096	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:12.098	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.099	ID:9	BROKER.forwardPublishMessage: Forwarding msg 7 to client 7, with qos = 1
+00:12.103	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 7, topic = 2, data = 45321, QoS = 1
+00:12.110	ID:7	CLIENT.receive: Message received from source = 9 
+00:12.110	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:12.112	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.117	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 7, topic = 2, data = 45321, QoS = 1
+00:12.827	ID:1	CLIENT.readDone: Read the value 24199
+00:12.828	ID:1	CLIENT.readDone: Publishing the read value
+00:12.831	ID:1	CLIENT.sendPublish: Publish message passed to lower layer!
+00:12.835	ID:1	CLIENT.sendPublish: Payload length = 7, Source = 1, Destination = 9
+00:12.840	ID:1	CLIENT.sendPublish: Payload>>> msg_id = 1003, topic = 1, data = 24199, Qos = 1
+00:12.842	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 7
+00:12.843	ID:1	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:12.847	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 1003, topic = 1, data = 24199
+00:12.850	ID:9	BROKER.forwardPublishMessage: Forwarding msg 8 to client 2, with qos = 1
+00:12.857	ID:2	CLIENT.receive: Message received from source = 9 
+00:12.858	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:12.860	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.861	ID:9	BROKER.forwardPublishMessage: Forwarding msg 8 to client 3, with qos = 0
+00:12.864	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 8, topic = 1, data = 24199, QoS = 1
+00:12.877	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:12.880	ID:9	BROKER.forwardPublishMessage: Forwarding msg 8 to client 5, with qos = 0
+00:12.889	ID:5	CLIENT.receive: Message received from source = 9 
+00:12.889	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:12.891	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.892	ID:9	BROKER.forwardPublishMessage: Forwarding msg 8 to client 6, with qos = 0
+00:12.895	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 8, topic = 1, data = 24199, QoS = 0
+00:12.900	ID:6	CLIENT.receive: Message received from source = 9 
+00:12.900	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:12.902	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.903	ID:9	BROKER.forwardPublishMessage: Forwarding msg 8 to client 8, with qos = 0
+00:12.907	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 8, topic = 1, data = 24199, QoS = 0
+00:12.916	ID:8	CLIENT.receive: Message received from source = 9 
+00:12.916	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:12.918	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:12.922	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 8, topic = 1, data = 24199, QoS = 0
+00:13.172	ID:2	CLIENT.readDone: Read the value 36299
+00:13.173	ID:2	CLIENT.readDone: Publishing the read value
+00:13.177	ID:2	CLIENT.sendPublish: Publish message passed to lower layer!
+00:13.180	ID:2	CLIENT.sendPublish: Payload length = 7, Source = 2, Destination = 9
+00:13.185	ID:2	CLIENT.sendPublish: Payload>>> msg_id = 2003, topic = 2, data = 36299, Qos = 1
+00:13.188	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 7
+00:13.188	ID:2	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:13.192	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 2003, topic = 2, data = 36299
+00:13.195	ID:9	BROKER.forwardPublishMessage: Forwarding msg 9 to client 1, with qos = 0
+00:13.210	ID:1	CLIENT.receive: Message received from source = 9 
+00:13.210	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:13.212	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:13.213	ID:9	BROKER.forwardPublishMessage: Forwarding msg 9 to client 3, with qos = 1
+00:13.216	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 9, topic = 2, data = 36299, QoS = 0
+00:13.230	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.245	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.268	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.287	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.309	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.324	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.343	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.365	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.382	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.401	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.422	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.445	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.462	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.478	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.496	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.519	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.538	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.554	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.569	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.584	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.601	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.620	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.635	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.656	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.677	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.700	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.717	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.736	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.757	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.780	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.794	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.811	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.830	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.849	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.870	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.893	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.913	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.931	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.948	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.969	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:13.989	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.008	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.031	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.051	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.065	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.083	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.105	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.121	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.140	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.160	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.182	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.199	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.214	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.233	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.252	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.260	ID:4	CLIENT.readDone: Read the value 60498
+00:14.261	ID:4	CLIENT.readDone: Publishing the read value
+00:14.265	ID:4	CLIENT.sendPublish: Publish message passed to lower layer!
+00:14.269	ID:4	CLIENT.sendPublish: Payload length = 7, Source = 4, Destination = 9
+00:14.269	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.273	ID:4	CLIENT.sendPublish: Payload>>> msg_id = 4003, topic = 1, data = 60498, Qos = 1
+00:14.274	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 7
+00:14.277	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:14.277	ID:4	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:14.287	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.305	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.321	ID:3	CLIENT.readDone: Read the value 4407
+00:14.321	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.322	ID:3	CLIENT.readDone: Publishing the read value
+00:14.325	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:14.329	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:14.333	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:14.339	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.341	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 100 ms
+00:14.361	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.375	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.397	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.413	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.432	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.439	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:14.443	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:14.446	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:14.449	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.450	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:14.456	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 200 ms
+00:14.465	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.481	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.499	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.514	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.531	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.551	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.573	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.590	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.606	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.624	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.647	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.653	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:14.656	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:14.659	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:14.664	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:14.667	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.675	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 300 ms
+00:14.686	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.706	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.723	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.738	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.754	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.775	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.794	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.813	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.828	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.844	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.867	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.890	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.905	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.919	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.942	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.956	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.970	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:14.973	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:14.973	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.976	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:14.981	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:14.989	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:14.991	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 200 ms
+00:15.009	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.029	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.046	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.063	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.078	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.098	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.118	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.138	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.159	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.181	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.187	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:15.190	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.194	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:15.198	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:15.205	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.211	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 400 ms
+00:15.219	ID:5	CLIENT.readDone: Read the value 10060
+00:15.220	ID:5	CLIENT.readDone: Publishing the read value
+00:15.224	ID:5	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.227	ID:5	CLIENT.sendPublish: Payload length = 7, Source = 5, Destination = 9
+00:15.227	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.232	ID:5	CLIENT.sendPublish: Payload>>> msg_id = 5003, topic = 2, data = 10060, Qos = 0
+00:15.234	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 7
+00:15.236	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:15.237	ID:5	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:15.244	ID:6	CLIENT.readDone: Read the value 53477
+00:15.246	ID:6	CLIENT.readDone: Publishing the read value
+00:15.246	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.249	ID:6	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.252	ID:6	CLIENT.sendPublish: Payload length = 7, Source = 6, Destination = 9
+00:15.257	ID:6	CLIENT.sendPublish: Payload>>> msg_id = 6003, topic = 0, data = 53477, Qos = 0
+00:15.265	ID:6	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:15.266	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.289	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.310	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.329	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.349	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.370	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.391	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.405	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.426	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.441	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.460	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.483	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.501	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.518	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.538	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.554	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.576	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.590	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.603	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:15.606	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.610	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:15.613	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.614	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:15.622	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 100 ms
+00:15.636	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.658	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.674	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.690	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.706	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.721	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:15.721	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.724	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.728	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:15.732	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:15.739	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.740	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 100 ms
+00:15.756	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.771	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.784	ID:7	CLIENT.readDone: Read the value 31261
+00:15.786	ID:7	CLIENT.readDone: Publishing the read value
+00:15.789	ID:7	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.792	ID:7	CLIENT.sendPublish: Payload length = 7, Source = 7, Destination = 9
+00:15.795	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.797	ID:7	CLIENT.sendPublish: Payload>>> msg_id = 7003, topic = 1, data = 31261, Qos = 1
+00:15.800	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 7
+00:15.801	ID:7	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:15.802	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:15.817	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.837	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.840	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:15.843	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.846	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:15.851	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:15.857	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.862	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 300 ms
+00:15.876	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.897	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.914	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.930	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.933	ID:8	CLIENT.readDone: Read the value 43361
+00:15.934	ID:8	CLIENT.readDone: Publishing the read value
+00:15.938	ID:8	CLIENT.sendPublish: Publish message passed to lower layer!
+00:15.943	ID:8	CLIENT.sendPublish: Payload length = 7, Source = 8, Destination = 9
+00:15.944	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 7
+00:15.946	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:15.947	ID:8	CLIENT.sendPublish: Payload>>> msg_id = 8003, topic = 2, data = 43361, Qos = 1
+00:15.950	ID:8	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:15.952	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.974	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:15.990	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.012	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.031	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.050	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.065	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.087	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.101	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.122	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.141	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.156	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:16.157	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.159	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:16.162	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:16.167	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:16.177	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 100 ms
+00:16.180	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.196	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.215	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.233	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.251	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.271	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.276	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:16.279	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:16.282	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:16.287	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:16.290	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.301	ID:3	CLIENT.sendDone: Packet sent with type = 2... but ack was not received. Trying to resend the packet again in 500 ms
+00:16.305	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.322	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.343	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.365	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.379	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.397	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.411	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.425	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.445	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.463	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.486	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.508	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.523	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.537	ID:9	BROKER.sendDone: Packet sent... but ack was not received. Trying to resend the packet again
+00:16.552	ID:3	CLIENT.receive: Message received from source = 9 
+00:16.552	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.554	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.555	ID:9	BROKER.forwardPublishMessage: Forwarding msg 9 to client 4, with qos = 0
+00:16.559	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 9, topic = 2, data = 36299, QoS = 1
+00:16.562	ID:4	CLIENT.receive: Message received from source = 9 
+00:16.562	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.564	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.566	ID:9	BROKER.forwardPublishMessage: Forwarding msg 9 to client 6, with qos = 1
+00:16.569	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 9, topic = 2, data = 36299, QoS = 0
+00:16.579	ID:6	CLIENT.receive: Message received from source = 9 
+00:16.579	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.582	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.583	ID:9	BROKER.forwardPublishMessage: Forwarding msg 9 to client 7, with qos = 1
+00:16.586	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 9, topic = 2, data = 36299, QoS = 1
+00:16.594	ID:7	CLIENT.receive: Message received from source = 9 
+00:16.594	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.597	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.597	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 1
+00:16.601	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 9, topic = 2, data = 36299, QoS = 1
+00:16.601	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 10, topic = 1, data = 31261
+00:16.605	ID:9	BROKER.forwardPublishMessage: Forwarding msg 10 to client 2, with qos = 1
+00:16.619	ID:2	CLIENT.receive: Message received from source = 9 
+00:16.619	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.621	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.623	ID:9	BROKER.forwardPublishMessage: Forwarding msg 10 to client 3, with qos = 0
+00:16.626	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 10, topic = 1, data = 31261, QoS = 1
+00:16.633	ID:3	CLIENT.receive: Message received from source = 9 
+00:16.633	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.635	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.637	ID:9	BROKER.forwardPublishMessage: Forwarding msg 10 to client 5, with qos = 0
+00:16.640	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 10, topic = 1, data = 31261, QoS = 0
+00:16.645	ID:5	CLIENT.receive: Message received from source = 9 
+00:16.646	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.647	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.649	ID:9	BROKER.forwardPublishMessage: Forwarding msg 10 to client 6, with qos = 0
+00:16.652	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 10, topic = 1, data = 31261, QoS = 0
+00:16.658	ID:6	CLIENT.receive: Message received from source = 9 
+00:16.658	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.660	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.662	ID:9	BROKER.forwardPublishMessage: Forwarding msg 10 to client 8, with qos = 0
+00:16.665	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 10, topic = 1, data = 31261, QoS = 0
+00:16.670	ID:8	CLIENT.receive: Message received from source = 9 
+00:16.671	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.673	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.673	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 2
+00:16.677	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 10, topic = 1, data = 31261, QoS = 0
+00:16.677	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 11, topic = 2, data = 43361
+00:16.681	ID:9	BROKER.forwardPublishMessage: Forwarding msg 11 to client 1, with qos = 0
+00:16.696	ID:1	CLIENT.receive: Message received from source = 9 
+00:16.696	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.698	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.700	ID:9	BROKER.forwardPublishMessage: Forwarding msg 11 to client 3, with qos = 1
+00:16.703	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 11, topic = 2, data = 43361, QoS = 0
+00:16.708	ID:3	CLIENT.receive: Message received from source = 9 
+00:16.708	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.710	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.711	ID:9	BROKER.forwardPublishMessage: Forwarding msg 11 to client 4, with qos = 0
+00:16.715	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 11, topic = 2, data = 43361, QoS = 1
+00:16.724	ID:4	CLIENT.receive: Message received from source = 9 
+00:16.724	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.726	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.728	ID:9	BROKER.forwardPublishMessage: Forwarding msg 11 to client 6, with qos = 1
+00:16.731	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 11, topic = 2, data = 43361, QoS = 0
+00:16.734	ID:1	CLIENT.readDone: Read the value 30891
+00:16.736	ID:6	CLIENT.receive: Message received from source = 9 
+00:16.736	ID:1	CLIENT.readDone: Publishing the read value
+00:16.736	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.738	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.739	ID:1	CLIENT.sendPublish: Publish message passed to lower layer!
+00:16.739	ID:9	BROKER.forwardPublishMessage: Forwarding msg 11 to client 7, with qos = 1
+00:16.742	ID:1	CLIENT.sendPublish: Payload length = 7, Source = 1, Destination = 9
+00:16.743	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 11, topic = 2, data = 43361, QoS = 1
+00:16.746	ID:7	CLIENT.receive: Message received from source = 9 
+00:16.747	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.748	ID:1	CLIENT.sendPublish: Payload>>> msg_id = 1004, topic = 1, data = 30891, Qos = 1
+00:16.748	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.751	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 7
+00:16.753	ID:1	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:16.753	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 11, topic = 2, data = 43361, QoS = 1
+00:16.755	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 1004, topic = 1, data = 30891
+00:16.759	ID:9	BROKER.forwardPublishMessage: Forwarding msg 12 to client 2, with qos = 1
+00:16.771	ID:2	CLIENT.receive: Message received from source = 9 
+00:16.771	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.773	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.774	ID:9	BROKER.forwardPublishMessage: Forwarding msg 12 to client 3, with qos = 0
+00:16.778	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 12, topic = 1, data = 30891, QoS = 1
+00:16.782	ID:3	CLIENT.receive: Message received from source = 9 
+00:16.782	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.784	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.785	ID:9	BROKER.forwardPublishMessage: Forwarding msg 12 to client 5, with qos = 0
+00:16.789	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 12, topic = 1, data = 30891, QoS = 0
+00:16.790	ID:3	CLIENT.timeoutFired: Retransmission timeout fired!
+00:16.795	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:16.796	ID:5	CLIENT.receive: Message received from source = 9 
+00:16.797	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.798	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:16.799	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.802	ID:9	BROKER.forwardPublishMessage: Forwarding msg 12 to client 6, with qos = 0
+00:16.803	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3003, topic = 0, data = 4407, Qos = 1
+00:16.804	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 12, topic = 1, data = 30891, QoS = 0
+00:16.807	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 7
+00:16.807	ID:3	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:16.809	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:16.817	ID:6	CLIENT.receive: Message received from source = 9 
+00:16.817	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.819	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.821	ID:9	BROKER.forwardPublishMessage: Forwarding msg 12 to client 8, with qos = 0
+00:16.824	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 12, topic = 1, data = 30891, QoS = 0
+00:16.832	ID:8	CLIENT.receive: Message received from source = 9 
+00:16.832	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.834	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.835	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:16.838	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 12, topic = 1, data = 30891, QoS = 0
+00:16.839	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 13, topic = 0, data = 4407
+00:16.842	ID:9	BROKER.forwardPublishMessage: Forwarding msg 13 to client 1, with qos = 0
+00:16.851	ID:1	CLIENT.receive: Message received from source = 9 
+00:16.851	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.853	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.855	ID:9	BROKER.forwardPublishMessage: Forwarding msg 13 to client 2, with qos = 1
+00:16.858	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 13, topic = 0, data = 4407, QoS = 0
+00:16.866	ID:2	CLIENT.receive: Message received from source = 9 
+00:16.866	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.868	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.869	ID:9	BROKER.forwardPublishMessage: Forwarding msg 13 to client 4, with qos = 1
+00:16.872	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 13, topic = 0, data = 4407, QoS = 1
+00:16.883	ID:4	CLIENT.receive: Message received from source = 9 
+00:16.883	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.885	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.886	ID:9	BROKER.forwardPublishMessage: Forwarding msg 13 to client 5, with qos = 0
+00:16.890	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 13, topic = 0, data = 4407, QoS = 1
+00:16.897	ID:5	CLIENT.receive: Message received from source = 9 
+00:16.897	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.899	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.900	ID:9	BROKER.forwardPublishMessage: Forwarding msg 13 to client 7, with qos = 1
+00:16.903	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 13, topic = 0, data = 4407, QoS = 0
+00:16.915	ID:7	CLIENT.receive: Message received from source = 9 
+00:16.916	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:16.918	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.919	ID:9	BROKER.forwardPublishMessage: Forwarding msg 13 to client 8, with qos = 0
+00:16.922	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 13, topic = 0, data = 4407, QoS = 1
+00:16.930	ID:8	CLIENT.receive: Message received from source = 9 
+00:16.930	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:16.932	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:16.937	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 13, topic = 0, data = 4407, QoS = 0
+00:17.078	ID:2	CLIENT.readDone: Read the value 46336
+00:17.080	ID:2	CLIENT.readDone: Publishing the read value
+00:17.083	ID:2	CLIENT.sendPublish: Publish message passed to lower layer!
+00:17.086	ID:2	CLIENT.sendPublish: Payload length = 7, Source = 2, Destination = 9
+00:17.091	ID:2	CLIENT.sendPublish: Payload>>> msg_id = 2004, topic = 2, data = 46336, Qos = 0
+00:17.096	ID:2	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:17.097	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 7
+00:17.101	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 2004, topic = 2, data = 46336
+00:17.104	ID:9	BROKER.forwardPublishMessage: Forwarding msg 14 to client 1, with qos = 0
+00:17.111	ID:1	CLIENT.receive: Message received from source = 9 
+00:17.111	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:17.113	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:17.115	ID:9	BROKER.forwardPublishMessage: Forwarding msg 14 to client 3, with qos = 1
+00:17.118	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 14, topic = 2, data = 46336, QoS = 0
+00:17.124	ID:3	CLIENT.receive: Message received from source = 9 
+00:17.125	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:17.127	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:17.128	ID:9	BROKER.forwardPublishMessage: Forwarding msg 14 to client 4, with qos = 0
+00:17.131	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 14, topic = 2, data = 46336, QoS = 1
+00:17.141	ID:4	CLIENT.receive: Message received from source = 9 
+00:17.141	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:17.143	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:17.145	ID:9	BROKER.forwardPublishMessage: Forwarding msg 14 to client 6, with qos = 1
+00:17.148	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 14, topic = 2, data = 46336, QoS = 0
+00:17.156	ID:6	CLIENT.receive: Message received from source = 9 
+00:17.156	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:17.158	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:17.160	ID:9	BROKER.forwardPublishMessage: Forwarding msg 14 to client 7, with qos = 1
+00:17.163	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 14, topic = 2, data = 46336, QoS = 1
+00:17.167	ID:7	CLIENT.receive: Message received from source = 9 
+00:17.167	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:17.169	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:17.174	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 14, topic = 2, data = 46336, QoS = 1
+00:18.166	ID:4	CLIENT.readDone: Read the value 11691
+00:18.168	ID:4	CLIENT.readDone: Publishing the read value
+00:18.171	ID:4	CLIENT.sendPublish: Publish message passed to lower layer!
+00:18.175	ID:4	CLIENT.sendPublish: Payload length = 7, Source = 4, Destination = 9
+00:18.178	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 7
+00:18.180	ID:4	CLIENT.sendPublish: Payload>>> msg_id = 4004, topic = 1, data = 11691, Qos = 0
+00:18.183	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 4004, topic = 1, data = 11691
+00:18.183	ID:4	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:18.186	ID:9	BROKER.forwardPublishMessage: Forwarding msg 15 to client 2, with qos = 1
+00:18.197	ID:2	CLIENT.receive: Message received from source = 9 
+00:18.197	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:18.199	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.200	ID:9	BROKER.forwardPublishMessage: Forwarding msg 15 to client 3, with qos = 0
+00:18.204	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 15, topic = 1, data = 11691, QoS = 1
+00:18.207	ID:3	CLIENT.receive: Message received from source = 9 
+00:18.207	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.209	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.210	ID:9	BROKER.forwardPublishMessage: Forwarding msg 15 to client 5, with qos = 0
+00:18.214	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 15, topic = 1, data = 11691, QoS = 0
+00:18.217	ID:5	CLIENT.receive: Message received from source = 9 
+00:18.217	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.219	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.221	ID:9	BROKER.forwardPublishMessage: Forwarding msg 15 to client 6, with qos = 0
+00:18.224	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 15, topic = 1, data = 11691, QoS = 0
+00:18.228	ID:3	CLIENT.readDone: Read the value 15649
+00:18.229	ID:3	CLIENT.readDone: Publishing the read value
+00:18.230	ID:6	CLIENT.receive: Message received from source = 9 
+00:18.231	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.233	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:18.233	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.234	ID:9	BROKER.forwardPublishMessage: Forwarding msg 15 to client 8, with qos = 0
+00:18.237	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:18.237	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 15, topic = 1, data = 11691, QoS = 0
+00:18.241	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 7
+00:18.241	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3004, topic = 0, data = 15649, Qos = 0
+00:18.243	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:18.246	ID:3	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:18.246	ID:8	CLIENT.receive: Message received from source = 9 
+00:18.247	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.249	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.249	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:18.253	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 15, topic = 1, data = 11691, QoS = 0
+00:18.253	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 16, topic = 0, data = 15649
+00:18.257	ID:9	BROKER.forwardPublishMessage: Forwarding msg 16 to client 1, with qos = 0
+00:18.272	ID:1	CLIENT.receive: Message received from source = 9 
+00:18.273	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.275	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.276	ID:9	BROKER.forwardPublishMessage: Forwarding msg 16 to client 2, with qos = 1
+00:18.279	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 16, topic = 0, data = 15649, QoS = 0
+00:18.291	ID:2	CLIENT.receive: Message received from source = 9 
+00:18.291	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:18.293	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.294	ID:9	BROKER.forwardPublishMessage: Forwarding msg 16 to client 4, with qos = 1
+00:18.298	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 16, topic = 0, data = 15649, QoS = 1
+00:18.304	ID:4	CLIENT.receive: Message received from source = 9 
+00:18.304	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:18.306	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.307	ID:9	BROKER.forwardPublishMessage: Forwarding msg 16 to client 5, with qos = 0
+00:18.311	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 16, topic = 0, data = 15649, QoS = 1
+00:18.323	ID:5	CLIENT.receive: Message received from source = 9 
+00:18.323	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.325	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.327	ID:9	BROKER.forwardPublishMessage: Forwarding msg 16 to client 7, with qos = 1
+00:18.330	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 16, topic = 0, data = 15649, QoS = 0
+00:18.335	ID:7	CLIENT.receive: Message received from source = 9 
+00:18.336	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:18.338	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.339	ID:9	BROKER.forwardPublishMessage: Forwarding msg 16 to client 8, with qos = 0
+00:18.342	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 16, topic = 0, data = 15649, QoS = 1
+00:18.348	ID:8	CLIENT.receive: Message received from source = 9 
+00:18.348	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:18.350	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:18.354	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 16, topic = 0, data = 15649, QoS = 0
+00:19.125	ID:5	CLIENT.readDone: Read the value 22158
+00:19.126	ID:5	CLIENT.readDone: Publishing the read value
+00:19.129	ID:5	CLIENT.sendPublish: Publish message passed to lower layer!
+00:19.132	ID:5	CLIENT.sendPublish: Payload length = 7, Source = 5, Destination = 9
+00:19.138	ID:5	CLIENT.sendPublish: Payload>>> msg_id = 5004, topic = 2, data = 22158, Qos = 0
+00:19.139	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 7
+00:19.141	ID:5	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:19.143	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 5004, topic = 2, data = 22158
+00:19.147	ID:9	BROKER.forwardPublishMessage: Forwarding msg 17 to client 1, with qos = 0
+00:19.151	ID:6	CLIENT.readDone: Read the value 51063
+00:19.152	ID:6	CLIENT.readDone: Publishing the read value
+00:19.156	ID:6	CLIENT.sendPublish: Publish message passed to lower layer!
+00:19.157	ID:1	CLIENT.receive: Message received from source = 9 
+00:19.158	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.160	ID:6	CLIENT.sendPublish: Payload length = 7, Source = 6, Destination = 9
+00:19.160	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.161	ID:9	BROKER.forwardPublishMessage: Forwarding msg 17 to client 3, with qos = 1
+00:19.164	ID:6	CLIENT.sendPublish: Payload>>> msg_id = 6004, topic = 0, data = 51063, Qos = 0
+00:19.164	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 17, topic = 2, data = 22158, QoS = 0
+00:19.171	ID:6	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:19.171	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 7
+00:19.173	ID:3	CLIENT.receive: Message received from source = 9 
+00:19.173	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:19.175	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.176	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.179	ID:9	BROKER.forwardPublishMessage: Forwarding msg 17 to client 4, with qos = 0
+00:19.180	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 17, topic = 2, data = 22158, QoS = 1
+00:19.193	ID:4	CLIENT.receive: Message received from source = 9 
+00:19.193	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.195	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.197	ID:9	BROKER.forwardPublishMessage: Forwarding msg 17 to client 6, with qos = 1
+00:19.200	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 17, topic = 2, data = 22158, QoS = 0
+00:19.209	ID:6	CLIENT.receive: Message received from source = 9 
+00:19.209	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.211	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.212	ID:9	BROKER.forwardPublishMessage: Forwarding msg 17 to client 7, with qos = 1
+00:19.216	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 17, topic = 2, data = 22158, QoS = 1
+00:19.220	ID:7	CLIENT.receive: Message received from source = 9 
+00:19.220	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.222	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.223	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:19.227	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 17, topic = 2, data = 22158, QoS = 1
+00:19.227	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 18, topic = 0, data = 51063
+00:19.230	ID:9	BROKER.forwardPublishMessage: Forwarding msg 18 to client 1, with qos = 0
+00:19.242	ID:1	CLIENT.receive: Message received from source = 9 
+00:19.243	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.245	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.246	ID:9	BROKER.forwardPublishMessage: Forwarding msg 18 to client 2, with qos = 1
+00:19.249	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 18, topic = 0, data = 51063, QoS = 0
+00:19.260	ID:2	CLIENT.receive: Message received from source = 9 
+00:19.261	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.263	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.264	ID:9	BROKER.forwardPublishMessage: Forwarding msg 18 to client 4, with qos = 1
+00:19.268	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 18, topic = 0, data = 51063, QoS = 1
+00:19.271	ID:4	CLIENT.receive: Message received from source = 9 
+00:19.271	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.273	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.274	ID:9	BROKER.forwardPublishMessage: Forwarding msg 18 to client 5, with qos = 0
+00:19.278	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 18, topic = 0, data = 51063, QoS = 1
+00:19.290	ID:5	CLIENT.receive: Message received from source = 9 
+00:19.290	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.292	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.294	ID:9	BROKER.forwardPublishMessage: Forwarding msg 18 to client 7, with qos = 1
+00:19.297	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 18, topic = 0, data = 51063, QoS = 0
+00:19.307	ID:7	CLIENT.receive: Message received from source = 9 
+00:19.307	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.309	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.311	ID:9	BROKER.forwardPublishMessage: Forwarding msg 18 to client 8, with qos = 0
+00:19.314	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 18, topic = 0, data = 51063, QoS = 1
+00:19.325	ID:8	CLIENT.receive: Message received from source = 9 
+00:19.325	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.327	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.332	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 18, topic = 0, data = 51063, QoS = 0
+00:19.689	ID:7	CLIENT.readDone: Read the value 58028
+00:19.691	ID:7	CLIENT.readDone: Publishing the read value
+00:19.694	ID:7	CLIENT.sendPublish: Publish message passed to lower layer!
+00:19.698	ID:7	CLIENT.sendPublish: Payload length = 7, Source = 7, Destination = 9
+00:19.701	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 7
+00:19.703	ID:7	CLIENT.sendPublish: Payload>>> msg_id = 7004, topic = 1, data = 58028, Qos = 0
+00:19.705	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 7004, topic = 1, data = 58028
+00:19.706	ID:7	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:19.708	ID:9	BROKER.forwardPublishMessage: Forwarding msg 19 to client 2, with qos = 1
+00:19.721	ID:2	CLIENT.receive: Message received from source = 9 
+00:19.722	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.724	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.725	ID:9	BROKER.forwardPublishMessage: Forwarding msg 19 to client 3, with qos = 0
+00:19.728	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 19, topic = 1, data = 58028, QoS = 1
+00:19.734	ID:3	CLIENT.receive: Message received from source = 9 
+00:19.734	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.736	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.738	ID:9	BROKER.forwardPublishMessage: Forwarding msg 19 to client 5, with qos = 0
+00:19.741	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 19, topic = 1, data = 58028, QoS = 0
+00:19.748	ID:5	CLIENT.receive: Message received from source = 9 
+00:19.748	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.750	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.752	ID:9	BROKER.forwardPublishMessage: Forwarding msg 19 to client 6, with qos = 0
+00:19.755	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 19, topic = 1, data = 58028, QoS = 0
+00:19.763	ID:6	CLIENT.receive: Message received from source = 9 
+00:19.763	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.765	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.767	ID:9	BROKER.forwardPublishMessage: Forwarding msg 19 to client 8, with qos = 0
+00:19.770	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 19, topic = 1, data = 58028, QoS = 0
+00:19.776	ID:8	CLIENT.receive: Message received from source = 9 
+00:19.776	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.778	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.783	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 19, topic = 1, data = 58028, QoS = 0
+00:19.839	ID:8	CLIENT.readDone: Read the value 7937
+00:19.840	ID:8	CLIENT.readDone: Publishing the read value
+00:19.843	ID:8	CLIENT.sendPublish: Publish message passed to lower layer!
+00:19.847	ID:8	CLIENT.sendPublish: Payload length = 7, Source = 8, Destination = 9
+00:19.852	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 7
+00:19.852	ID:8	CLIENT.sendPublish: Payload>>> msg_id = 8004, topic = 2, data = 7937, Qos = 1
+00:19.855	ID:8	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:19.856	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 8004, topic = 2, data = 7937
+00:19.859	ID:9	BROKER.forwardPublishMessage: Forwarding msg 20 to client 1, with qos = 0
+00:19.866	ID:1	CLIENT.receive: Message received from source = 9 
+00:19.867	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.869	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.870	ID:9	BROKER.forwardPublishMessage: Forwarding msg 20 to client 3, with qos = 1
+00:19.873	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 20, topic = 2, data = 7937, QoS = 0
+00:19.885	ID:3	CLIENT.receive: Message received from source = 9 
+00:19.885	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.887	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.889	ID:9	BROKER.forwardPublishMessage: Forwarding msg 20 to client 4, with qos = 0
+00:19.892	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 20, topic = 2, data = 7937, QoS = 1
+00:19.896	ID:4	CLIENT.receive: Message received from source = 9 
+00:19.897	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:19.899	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.900	ID:9	BROKER.forwardPublishMessage: Forwarding msg 20 to client 6, with qos = 1
+00:19.903	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 20, topic = 2, data = 7937, QoS = 0
+00:19.908	ID:6	CLIENT.receive: Message received from source = 9 
+00:19.908	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.910	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.912	ID:9	BROKER.forwardPublishMessage: Forwarding msg 20 to client 7, with qos = 1
+00:19.915	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 20, topic = 2, data = 7937, QoS = 1
+00:19.925	ID:7	CLIENT.receive: Message received from source = 9 
+00:19.925	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:19.927	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:19.932	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 20, topic = 2, data = 7937, QoS = 1
+00:20.639	ID:1	CLIENT.readDone: Read the value 43366
+00:20.641	ID:1	CLIENT.readDone: Publishing the read value
+00:20.644	ID:1	CLIENT.sendPublish: Publish message passed to lower layer!
+00:20.649	ID:1	CLIENT.sendPublish: Payload length = 7, Source = 1, Destination = 9
+00:20.652	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 7
+00:20.653	ID:1	CLIENT.sendPublish: Payload>>> msg_id = 1005, topic = 1, data = 43366, Qos = 1
+00:20.656	ID:1	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:20.656	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 1005, topic = 1, data = 43366
+00:20.659	ID:9	BROKER.forwardPublishMessage: Forwarding msg 21 to client 2, with qos = 1
+00:20.672	ID:2	CLIENT.receive: Message received from source = 9 
+00:20.672	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:20.674	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:20.675	ID:9	BROKER.forwardPublishMessage: Forwarding msg 21 to client 3, with qos = 0
+00:20.679	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 21, topic = 1, data = 43366, QoS = 1
+00:20.690	ID:3	CLIENT.receive: Message received from source = 9 
+00:20.690	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:20.692	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:20.694	ID:9	BROKER.forwardPublishMessage: Forwarding msg 21 to client 5, with qos = 0
+00:20.697	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 21, topic = 1, data = 43366, QoS = 0
+00:20.706	ID:5	CLIENT.receive: Message received from source = 9 
+00:20.706	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:20.708	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:20.710	ID:9	BROKER.forwardPublishMessage: Forwarding msg 21 to client 6, with qos = 0
+00:20.713	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 21, topic = 1, data = 43366, QoS = 0
+00:20.721	ID:6	CLIENT.receive: Message received from source = 9 
+00:20.721	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:20.723	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:20.725	ID:9	BROKER.forwardPublishMessage: Forwarding msg 21 to client 8, with qos = 0
+00:20.728	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 21, topic = 1, data = 43366, QoS = 0
+00:20.734	ID:8	CLIENT.receive: Message received from source = 9 
+00:20.734	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:20.736	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:20.741	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 21, topic = 1, data = 43366, QoS = 0
+00:20.985	ID:2	CLIENT.readDone: Read the value 32281
+00:20.986	ID:2	CLIENT.readDone: Publishing the read value
+00:20.989	ID:2	CLIENT.sendPublish: Publish message passed to lower layer!
+00:20.993	ID:2	CLIENT.sendPublish: Payload length = 7, Source = 2, Destination = 9
+00:20.998	ID:2	CLIENT.sendPublish: Payload>>> msg_id = 2005, topic = 2, data = 32281, Qos = 0
+00:20.998	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 7
+00:21.001	ID:2	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:21.003	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 2005, topic = 2, data = 32281
+00:21.006	ID:9	BROKER.forwardPublishMessage: Forwarding msg 22 to client 1, with qos = 0
+00:21.018	ID:1	CLIENT.receive: Message received from source = 9 
+00:21.019	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:21.021	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:21.022	ID:9	BROKER.forwardPublishMessage: Forwarding msg 22 to client 3, with qos = 1
+00:21.025	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 22, topic = 2, data = 32281, QoS = 0
+00:21.032	ID:3	CLIENT.receive: Message received from source = 9 
+00:21.032	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:21.034	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:21.035	ID:9	BROKER.forwardPublishMessage: Forwarding msg 22 to client 4, with qos = 0
+00:21.038	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 22, topic = 2, data = 32281, QoS = 1
+00:21.047	ID:4	CLIENT.receive: Message received from source = 9 
+00:21.047	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:21.049	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:21.050	ID:9	BROKER.forwardPublishMessage: Forwarding msg 22 to client 6, with qos = 1
+00:21.053	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 22, topic = 2, data = 32281, QoS = 0
+00:21.062	ID:6	CLIENT.receive: Message received from source = 9 
+00:21.062	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:21.064	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:21.065	ID:9	BROKER.forwardPublishMessage: Forwarding msg 22 to client 7, with qos = 1
+00:21.069	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 22, topic = 2, data = 32281, QoS = 1
+00:21.075	ID:7	CLIENT.receive: Message received from source = 9 
+00:21.076	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:21.078	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:21.082	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 22, topic = 2, data = 32281, QoS = 1
+00:22.073	ID:4	CLIENT.readDone: Read the value 10111
+00:22.074	ID:4	CLIENT.readDone: Publishing the read value
+00:22.077	ID:4	CLIENT.sendPublish: Publish message passed to lower layer!
+00:22.081	ID:4	CLIENT.sendPublish: Payload length = 7, Source = 4, Destination = 9
+00:22.085	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 7
+00:22.086	ID:4	CLIENT.sendPublish: Payload>>> msg_id = 4005, topic = 1, data = 10111, Qos = 1
+00:22.089	ID:4	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:22.089	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 4005, topic = 1, data = 10111
+00:22.093	ID:9	BROKER.forwardPublishMessage: Forwarding msg 23 to client 2, with qos = 1
+00:22.103	ID:2	CLIENT.receive: Message received from source = 9 
+00:22.103	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:22.105	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.107	ID:9	BROKER.forwardPublishMessage: Forwarding msg 23 to client 3, with qos = 0
+00:22.110	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 23, topic = 1, data = 10111, QoS = 1
+00:22.118	ID:3	CLIENT.receive: Message received from source = 9 
+00:22.119	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.120	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.122	ID:9	BROKER.forwardPublishMessage: Forwarding msg 23 to client 5, with qos = 0
+00:22.125	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 23, topic = 1, data = 10111, QoS = 0
+00:22.136	ID:5	CLIENT.receive: Message received from source = 9 
+00:22.136	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.137	ID:3	CLIENT.readDone: Read the value 20741
+00:22.138	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.138	ID:3	CLIENT.readDone: Publishing the read value
+00:22.139	ID:9	BROKER.forwardPublishMessage: Forwarding msg 23 to client 6, with qos = 0
+00:22.142	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:22.143	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 23, topic = 1, data = 10111, QoS = 0
+00:22.145	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:22.150	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3005, topic = 0, data = 20741, Qos = 0
+00:22.154	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 7
+00:22.155	ID:3	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:22.155	ID:6	CLIENT.receive: Message received from source = 9 
+00:22.156	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:22.158	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.159	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.162	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 23, topic = 1, data = 10111, QoS = 0
+00:22.163	ID:9	BROKER.forwardPublishMessage: Forwarding msg 23 to client 8, with qos = 0
+00:22.176	ID:8	CLIENT.receive: Message received from source = 9 
+00:22.176	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.178	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.179	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:22.182	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 23, topic = 1, data = 10111, QoS = 0
+00:22.183	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 24, topic = 0, data = 20741
+00:22.186	ID:9	BROKER.forwardPublishMessage: Forwarding msg 24 to client 1, with qos = 0
+00:22.199	ID:1	CLIENT.receive: Message received from source = 9 
+00:22.199	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.201	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.202	ID:9	BROKER.forwardPublishMessage: Forwarding msg 24 to client 2, with qos = 1
+00:22.205	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 24, topic = 0, data = 20741, QoS = 0
+00:22.211	ID:2	CLIENT.receive: Message received from source = 9 
+00:22.211	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:22.213	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.214	ID:9	BROKER.forwardPublishMessage: Forwarding msg 24 to client 4, with qos = 1
+00:22.217	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 24, topic = 0, data = 20741, QoS = 1
+00:22.227	ID:4	CLIENT.receive: Message received from source = 9 
+00:22.227	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:22.230	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.231	ID:9	BROKER.forwardPublishMessage: Forwarding msg 24 to client 5, with qos = 0
+00:22.234	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 24, topic = 0, data = 20741, QoS = 1
+00:22.241	ID:5	CLIENT.receive: Message received from source = 9 
+00:22.242	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.243	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.245	ID:9	BROKER.forwardPublishMessage: Forwarding msg 24 to client 7, with qos = 1
+00:22.248	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 24, topic = 0, data = 20741, QoS = 0
+00:22.255	ID:7	CLIENT.receive: Message received from source = 9 
+00:22.255	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:22.257	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.258	ID:9	BROKER.forwardPublishMessage: Forwarding msg 24 to client 8, with qos = 0
+00:22.262	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 24, topic = 0, data = 20741, QoS = 1
+00:22.272	ID:8	CLIENT.receive: Message received from source = 9 
+00:22.273	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:22.275	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:22.279	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 24, topic = 0, data = 20741, QoS = 0
+00:23.031	ID:5	CLIENT.readDone: Read the value 47096
+00:23.032	ID:5	CLIENT.readDone: Publishing the read value
+00:23.035	ID:5	CLIENT.sendPublish: Publish message passed to lower layer!
+00:23.039	ID:5	CLIENT.sendPublish: Payload length = 7, Source = 5, Destination = 9
+00:23.043	ID:5	CLIENT.sendPublish: Payload>>> msg_id = 5005, topic = 2, data = 47096, Qos = 0
+00:23.049	ID:5	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:23.050	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 7
+00:23.054	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 5005, topic = 2, data = 47096
+00:23.057	ID:6	CLIENT.readDone: Read the value 17227
+00:23.058	ID:9	BROKER.forwardPublishMessage: Forwarding msg 25 to client 1, with qos = 0
+00:23.058	ID:6	CLIENT.readDone: Publishing the read value
+00:23.061	ID:6	CLIENT.sendPublish: Publish message passed to lower layer!
+00:23.065	ID:6	CLIENT.sendPublish: Payload length = 7, Source = 6, Destination = 9
+00:23.071	ID:6	CLIENT.sendPublish: Payload>>> msg_id = 6005, topic = 0, data = 17227, Qos = 1
+00:23.072	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 7
+00:23.073	ID:1	CLIENT.receive: Message received from source = 9 
+00:23.074	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:23.074	ID:6	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:23.075	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.077	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.079	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 25, topic = 2, data = 47096, QoS = 0
+00:23.080	ID:9	BROKER.forwardPublishMessage: Forwarding msg 25 to client 3, with qos = 1
+00:23.092	ID:3	CLIENT.receive: Message received from source = 9 
+00:23.092	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.094	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.096	ID:9	BROKER.forwardPublishMessage: Forwarding msg 25 to client 4, with qos = 0
+00:23.099	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 25, topic = 2, data = 47096, QoS = 1
+00:23.109	ID:4	CLIENT.receive: Message received from source = 9 
+00:23.110	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.112	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.113	ID:9	BROKER.forwardPublishMessage: Forwarding msg 25 to client 6, with qos = 1
+00:23.116	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 25, topic = 2, data = 47096, QoS = 0
+00:23.123	ID:6	CLIENT.receive: Message received from source = 9 
+00:23.123	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.125	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.127	ID:9	BROKER.forwardPublishMessage: Forwarding msg 25 to client 7, with qos = 1
+00:23.130	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 25, topic = 2, data = 47096, QoS = 1
+00:23.139	ID:7	CLIENT.receive: Message received from source = 9 
+00:23.139	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.141	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.141	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:23.146	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 25, topic = 2, data = 47096, QoS = 1
+00:23.146	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 26, topic = 0, data = 17227
+00:23.149	ID:9	BROKER.forwardPublishMessage: Forwarding msg 26 to client 1, with qos = 0
+00:23.165	ID:1	CLIENT.receive: Message received from source = 9 
+00:23.165	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.167	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.168	ID:9	BROKER.forwardPublishMessage: Forwarding msg 26 to client 2, with qos = 1
+00:23.171	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 26, topic = 0, data = 17227, QoS = 0
+00:23.176	ID:2	CLIENT.receive: Message received from source = 9 
+00:23.176	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.178	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.180	ID:9	BROKER.forwardPublishMessage: Forwarding msg 26 to client 4, with qos = 1
+00:23.183	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 26, topic = 0, data = 17227, QoS = 1
+00:23.193	ID:4	CLIENT.receive: Message received from source = 9 
+00:23.193	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.195	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.197	ID:9	BROKER.forwardPublishMessage: Forwarding msg 26 to client 5, with qos = 0
+00:23.200	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 26, topic = 0, data = 17227, QoS = 1
+00:23.211	ID:5	CLIENT.receive: Message received from source = 9 
+00:23.211	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.213	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.214	ID:9	BROKER.forwardPublishMessage: Forwarding msg 26 to client 7, with qos = 1
+00:23.217	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 26, topic = 0, data = 17227, QoS = 0
+00:23.222	ID:7	CLIENT.receive: Message received from source = 9 
+00:23.222	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.224	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.225	ID:9	BROKER.forwardPublishMessage: Forwarding msg 26 to client 8, with qos = 0
+00:23.229	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 26, topic = 0, data = 17227, QoS = 1
+00:23.238	ID:8	CLIENT.receive: Message received from source = 9 
+00:23.238	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.240	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.245	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 26, topic = 0, data = 17227, QoS = 0
+00:23.596	ID:7	CLIENT.readDone: Read the value 42392
+00:23.597	ID:7	CLIENT.readDone: Publishing the read value
+00:23.600	ID:7	CLIENT.sendPublish: Publish message passed to lower layer!
+00:23.603	ID:7	CLIENT.sendPublish: Payload length = 7, Source = 7, Destination = 9
+00:23.608	ID:7	CLIENT.sendPublish: Payload>>> msg_id = 7005, topic = 1, data = 42392, Qos = 0
+00:23.612	ID:7	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:23.612	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 7
+00:23.617	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 7005, topic = 1, data = 42392
+00:23.620	ID:9	BROKER.forwardPublishMessage: Forwarding msg 27 to client 2, with qos = 1
+00:23.630	ID:2	CLIENT.receive: Message received from source = 9 
+00:23.631	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.633	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.634	ID:9	BROKER.forwardPublishMessage: Forwarding msg 27 to client 3, with qos = 0
+00:23.637	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 27, topic = 1, data = 42392, QoS = 1
+00:23.642	ID:3	CLIENT.receive: Message received from source = 9 
+00:23.642	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.644	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.646	ID:9	BROKER.forwardPublishMessage: Forwarding msg 27 to client 5, with qos = 0
+00:23.649	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 27, topic = 1, data = 42392, QoS = 0
+00:23.658	ID:5	CLIENT.receive: Message received from source = 9 
+00:23.658	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.660	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.662	ID:9	BROKER.forwardPublishMessage: Forwarding msg 27 to client 6, with qos = 0
+00:23.665	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 27, topic = 1, data = 42392, QoS = 0
+00:23.670	ID:6	CLIENT.receive: Message received from source = 9 
+00:23.671	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.672	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.674	ID:9	BROKER.forwardPublishMessage: Forwarding msg 27 to client 8, with qos = 0
+00:23.677	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 27, topic = 1, data = 42392, QoS = 0
+00:23.687	ID:8	CLIENT.receive: Message received from source = 9 
+00:23.687	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.689	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.694	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 27, topic = 1, data = 42392, QoS = 0
+00:23.745	ID:8	CLIENT.readDone: Read the value 31307
+00:23.746	ID:8	CLIENT.readDone: Publishing the read value
+00:23.750	ID:8	CLIENT.sendPublish: Publish message passed to lower layer!
+00:23.753	ID:8	CLIENT.sendPublish: Payload length = 7, Source = 8, Destination = 9
+00:23.758	ID:8	CLIENT.sendPublish: Payload>>> msg_id = 8005, topic = 2, data = 31307, Qos = 1
+00:23.759	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 7
+00:23.761	ID:8	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:23.764	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 8005, topic = 2, data = 31307
+00:23.767	ID:9	BROKER.forwardPublishMessage: Forwarding msg 28 to client 1, with qos = 0
+00:23.780	ID:1	CLIENT.receive: Message received from source = 9 
+00:23.781	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.783	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.784	ID:9	BROKER.forwardPublishMessage: Forwarding msg 28 to client 3, with qos = 1
+00:23.787	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 28, topic = 2, data = 31307, QoS = 0
+00:23.792	ID:3	CLIENT.receive: Message received from source = 9 
+00:23.792	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.794	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.796	ID:9	BROKER.forwardPublishMessage: Forwarding msg 28 to client 4, with qos = 0
+00:23.799	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 28, topic = 2, data = 31307, QoS = 1
+00:23.804	ID:4	CLIENT.receive: Message received from source = 9 
+00:23.805	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:23.807	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.808	ID:9	BROKER.forwardPublishMessage: Forwarding msg 28 to client 6, with qos = 1
+00:23.811	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 28, topic = 2, data = 31307, QoS = 0
+00:23.821	ID:6	CLIENT.receive: Message received from source = 9 
+00:23.822	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.824	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.825	ID:9	BROKER.forwardPublishMessage: Forwarding msg 28 to client 7, with qos = 1
+00:23.828	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 28, topic = 2, data = 31307, QoS = 1
+00:23.838	ID:7	CLIENT.receive: Message received from source = 9 
+00:23.838	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:23.840	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:23.845	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 28, topic = 2, data = 31307, QoS = 1
+00:24.546	ID:1	CLIENT.readDone: Read the value 33314
+00:24.547	ID:1	CLIENT.readDone: Publishing the read value
+00:24.551	ID:1	CLIENT.sendPublish: Publish message passed to lower layer!
+00:24.555	ID:1	CLIENT.sendPublish: Payload length = 7, Source = 1, Destination = 9
+00:24.556	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 7
+00:24.559	ID:1	CLIENT.sendPublish: Payload>>> msg_id = 1006, topic = 1, data = 33314, Qos = 0
+00:24.561	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 1006, topic = 1, data = 33314
+00:24.562	ID:1	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:24.564	ID:9	BROKER.forwardPublishMessage: Forwarding msg 29 to client 2, with qos = 1
+00:24.578	ID:2	CLIENT.receive: Message received from source = 9 
+00:24.578	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:24.580	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.581	ID:9	BROKER.forwardPublishMessage: Forwarding msg 29 to client 3, with qos = 0
+00:24.584	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 29, topic = 1, data = 33314, QoS = 1
+00:24.595	ID:3	CLIENT.receive: Message received from source = 9 
+00:24.595	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:24.597	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.599	ID:9	BROKER.forwardPublishMessage: Forwarding msg 29 to client 5, with qos = 0
+00:24.602	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 29, topic = 1, data = 33314, QoS = 0
+00:24.611	ID:5	CLIENT.receive: Message received from source = 9 
+00:24.611	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:24.613	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.615	ID:9	BROKER.forwardPublishMessage: Forwarding msg 29 to client 6, with qos = 0
+00:24.618	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 29, topic = 1, data = 33314, QoS = 0
+00:24.629	ID:6	CLIENT.receive: Message received from source = 9 
+00:24.629	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:24.631	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.633	ID:9	BROKER.forwardPublishMessage: Forwarding msg 29 to client 8, with qos = 0
+00:24.636	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 29, topic = 1, data = 33314, QoS = 0
+00:24.646	ID:8	CLIENT.receive: Message received from source = 9 
+00:24.646	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:24.648	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.653	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 29, topic = 1, data = 33314, QoS = 0
+00:24.891	ID:2	CLIENT.readDone: Read the value 49971
+00:24.892	ID:2	CLIENT.readDone: Publishing the read value
+00:24.895	ID:2	CLIENT.sendPublish: Publish message passed to lower layer!
+00:24.898	ID:2	CLIENT.sendPublish: Payload length = 7, Source = 2, Destination = 9
+00:24.904	ID:2	CLIENT.sendPublish: Payload>>> msg_id = 2006, topic = 2, data = 49971, Qos = 1
+00:24.907	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 7
+00:24.907	ID:2	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:24.911	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 2006, topic = 2, data = 49971
+00:24.914	ID:9	BROKER.forwardPublishMessage: Forwarding msg 30 to client 1, with qos = 0
+00:24.929	ID:1	CLIENT.receive: Message received from source = 9 
+00:24.930	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:24.932	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.933	ID:9	BROKER.forwardPublishMessage: Forwarding msg 30 to client 3, with qos = 1
+00:24.936	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 30, topic = 2, data = 49971, QoS = 0
+00:24.948	ID:3	CLIENT.receive: Message received from source = 9 
+00:24.948	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:24.950	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.952	ID:9	BROKER.forwardPublishMessage: Forwarding msg 30 to client 4, with qos = 0
+00:24.955	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 30, topic = 2, data = 49971, QoS = 1
+00:24.963	ID:4	CLIENT.receive: Message received from source = 9 
+00:24.963	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:24.965	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.967	ID:9	BROKER.forwardPublishMessage: Forwarding msg 30 to client 6, with qos = 1
+00:24.970	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 30, topic = 2, data = 49971, QoS = 0
+00:24.980	ID:6	CLIENT.receive: Message received from source = 9 
+00:24.981	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:24.983	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:24.984	ID:9	BROKER.forwardPublishMessage: Forwarding msg 30 to client 7, with qos = 1
+00:24.987	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 30, topic = 2, data = 49971, QoS = 1
+00:24.995	ID:7	CLIENT.receive: Message received from source = 9 
+00:24.995	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:24.997	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:25.002	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 30, topic = 2, data = 49971, QoS = 1
+00:25.979	ID:4	CLIENT.readDone: Read the value 17749
+00:25.980	ID:4	CLIENT.readDone: Publishing the read value
+00:25.983	ID:4	CLIENT.sendPublish: Publish message passed to lower layer!
+00:25.987	ID:4	CLIENT.sendPublish: Payload length = 7, Source = 4, Destination = 9
+00:25.992	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 7
+00:25.992	ID:4	CLIENT.sendPublish: Payload>>> msg_id = 4006, topic = 1, data = 17749, Qos = 1
+00:25.995	ID:4	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:25.996	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 4006, topic = 1, data = 17749
+00:25.999	ID:9	BROKER.forwardPublishMessage: Forwarding msg 31 to client 2, with qos = 1
+00:26.013	ID:2	CLIENT.receive: Message received from source = 9 
+00:26.013	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:26.015	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.016	ID:9	BROKER.forwardPublishMessage: Forwarding msg 31 to client 3, with qos = 0
+00:26.020	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 31, topic = 1, data = 17749, QoS = 1
+00:26.024	ID:3	CLIENT.receive: Message received from source = 9 
+00:26.024	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.026	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.028	ID:9	BROKER.forwardPublishMessage: Forwarding msg 31 to client 5, with qos = 0
+00:26.031	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 31, topic = 1, data = 17749, QoS = 0
+00:26.035	ID:5	CLIENT.receive: Message received from source = 9 
+00:26.036	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.038	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.039	ID:9	BROKER.forwardPublishMessage: Forwarding msg 31 to client 6, with qos = 0
+00:26.042	ID:3	CLIENT.readDone: Read the value 16527
+00:26.042	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 31, topic = 1, data = 17749, QoS = 0
+00:26.044	ID:3	CLIENT.readDone: Publishing the read value
+00:26.047	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:26.053	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:26.055	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 7
+00:26.055	ID:6	CLIENT.receive: Message received from source = 9 
+00:26.057	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:26.057	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3006, topic = 0, data = 16527, Qos = 1
+00:26.057	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.060	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.060	ID:3	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:26.062	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 31, topic = 1, data = 17749, QoS = 0
+00:26.063	ID:9	BROKER.forwardPublishMessage: Forwarding msg 31 to client 8, with qos = 0
+00:26.071	ID:8	CLIENT.receive: Message received from source = 9 
+00:26.072	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.074	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.074	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:26.078	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 31, topic = 1, data = 17749, QoS = 0
+00:26.079	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 32, topic = 0, data = 16527
+00:26.082	ID:9	BROKER.forwardPublishMessage: Forwarding msg 32 to client 1, with qos = 0
+00:26.095	ID:1	CLIENT.receive: Message received from source = 9 
+00:26.095	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.097	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.098	ID:9	BROKER.forwardPublishMessage: Forwarding msg 32 to client 2, with qos = 1
+00:26.102	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 32, topic = 0, data = 16527, QoS = 0
+00:26.108	ID:2	CLIENT.receive: Message received from source = 9 
+00:26.108	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:26.110	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.111	ID:9	BROKER.forwardPublishMessage: Forwarding msg 32 to client 4, with qos = 1
+00:26.115	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 32, topic = 0, data = 16527, QoS = 1
+00:26.125	ID:4	CLIENT.receive: Message received from source = 9 
+00:26.125	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:26.127	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.128	ID:9	BROKER.forwardPublishMessage: Forwarding msg 32 to client 5, with qos = 0
+00:26.132	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 32, topic = 0, data = 16527, QoS = 1
+00:26.140	ID:5	CLIENT.receive: Message received from source = 9 
+00:26.140	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.142	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.144	ID:9	BROKER.forwardPublishMessage: Forwarding msg 32 to client 7, with qos = 1
+00:26.147	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 32, topic = 0, data = 16527, QoS = 0
+00:26.159	ID:7	CLIENT.receive: Message received from source = 9 
+00:26.159	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:26.161	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.162	ID:9	BROKER.forwardPublishMessage: Forwarding msg 32 to client 8, with qos = 0
+00:26.165	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 32, topic = 0, data = 16527, QoS = 1
+00:26.170	ID:8	CLIENT.receive: Message received from source = 9 
+00:26.171	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.173	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.177	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 32, topic = 0, data = 16527, QoS = 0
+00:26.937	ID:5	CLIENT.readDone: Read the value 34065
+00:26.939	ID:5	CLIENT.readDone: Publishing the read value
+00:26.943	ID:5	CLIENT.sendPublish: Publish message passed to lower layer!
+00:26.946	ID:5	CLIENT.sendPublish: Payload length = 7, Source = 5, Destination = 9
+00:26.947	ID:9	BROKER.receive: Message received: Source = 5, Destination = 9 , Payload length = 7
+00:26.951	ID:5	CLIENT.sendPublish: Payload>>> msg_id = 5006, topic = 2, data = 34065, Qos = 1
+00:26.951	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 5006, topic = 2, data = 34065
+00:26.953	ID:5	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:26.955	ID:9	BROKER.forwardPublishMessage: Forwarding msg 33 to client 1, with qos = 0
+00:26.963	ID:6	CLIENT.readDone: Read the value 52521
+00:26.964	ID:6	CLIENT.readDone: Publishing the read value
+00:26.969	ID:6	CLIENT.sendPublish: Publish message passed to lower layer!
+00:26.969	ID:1	CLIENT.receive: Message received from source = 9 
+00:26.970	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:26.971	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.973	ID:6	CLIENT.sendPublish: Payload length = 7, Source = 6, Destination = 9
+00:26.974	ID:9	BROKER.forwardPublishMessage: Forwarding msg 33 to client 3, with qos = 1
+00:26.976	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 33, topic = 2, data = 34065, QoS = 0
+00:26.977	ID:6	CLIENT.sendPublish: Payload>>> msg_id = 6006, topic = 0, data = 52521, Qos = 1
+00:26.980	ID:9	BROKER.receive: Message received: Source = 6, Destination = 9 , Payload length = 7
+00:26.982	ID:6	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:26.982	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:26.983	ID:3	CLIENT.receive: Message received from source = 9 
+00:26.985	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:26.986	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:26.988	ID:9	BROKER.forwardPublishMessage: Forwarding msg 33 to client 4, with qos = 0
+00:26.990	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 33, topic = 2, data = 34065, QoS = 1
+00:27.001	ID:4	CLIENT.receive: Message received from source = 9 
+00:27.002	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.004	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.005	ID:9	BROKER.forwardPublishMessage: Forwarding msg 33 to client 6, with qos = 1
+00:27.008	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 33, topic = 2, data = 34065, QoS = 0
+00:27.015	ID:6	CLIENT.receive: Message received from source = 9 
+00:27.016	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.018	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.019	ID:9	BROKER.forwardPublishMessage: Forwarding msg 33 to client 7, with qos = 1
+00:27.022	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 33, topic = 2, data = 34065, QoS = 1
+00:27.026	ID:7	CLIENT.receive: Message received from source = 9 
+00:27.026	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.029	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.029	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:27.033	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 33, topic = 2, data = 34065, QoS = 1
+00:27.033	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 34, topic = 0, data = 52521
+00:27.037	ID:9	BROKER.forwardPublishMessage: Forwarding msg 34 to client 1, with qos = 0
+00:27.046	ID:1	CLIENT.receive: Message received from source = 9 
+00:27.047	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.048	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.050	ID:9	BROKER.forwardPublishMessage: Forwarding msg 34 to client 2, with qos = 1
+00:27.053	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 34, topic = 0, data = 52521, QoS = 0
+00:27.061	ID:2	CLIENT.receive: Message received from source = 9 
+00:27.061	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.063	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.065	ID:9	BROKER.forwardPublishMessage: Forwarding msg 34 to client 4, with qos = 1
+00:27.068	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 34, topic = 0, data = 52521, QoS = 1
+00:27.077	ID:4	CLIENT.receive: Message received from source = 9 
+00:27.077	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.079	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.081	ID:9	BROKER.forwardPublishMessage: Forwarding msg 34 to client 5, with qos = 0
+00:27.084	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 34, topic = 0, data = 52521, QoS = 1
+00:27.092	ID:5	CLIENT.receive: Message received from source = 9 
+00:27.092	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.094	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.095	ID:9	BROKER.forwardPublishMessage: Forwarding msg 34 to client 7, with qos = 1
+00:27.098	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 34, topic = 0, data = 52521, QoS = 0
+00:27.107	ID:7	CLIENT.receive: Message received from source = 9 
+00:27.107	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.109	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.111	ID:9	BROKER.forwardPublishMessage: Forwarding msg 34 to client 8, with qos = 0
+00:27.114	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 34, topic = 0, data = 52521, QoS = 1
+00:27.126	ID:8	CLIENT.receive: Message received from source = 9 
+00:27.126	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.128	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.133	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 34, topic = 0, data = 52521, QoS = 0
+00:27.502	ID:7	CLIENT.readDone: Read the value 2184
+00:27.503	ID:7	CLIENT.readDone: Publishing the read value
+00:27.506	ID:7	CLIENT.sendPublish: Publish message passed to lower layer!
+00:27.509	ID:7	CLIENT.sendPublish: Payload length = 7, Source = 7, Destination = 9
+00:27.515	ID:7	CLIENT.sendPublish: Payload>>> msg_id = 7006, topic = 1, data = 2184, Qos = 1
+00:27.517	ID:9	BROKER.receive: Message received: Source = 7, Destination = 9 , Payload length = 7
+00:27.518	ID:7	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:27.521	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 7006, topic = 1, data = 2184
+00:27.525	ID:9	BROKER.forwardPublishMessage: Forwarding msg 35 to client 2, with qos = 1
+00:27.538	ID:2	CLIENT.receive: Message received from source = 9 
+00:27.538	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.540	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.542	ID:9	BROKER.forwardPublishMessage: Forwarding msg 35 to client 3, with qos = 0
+00:27.545	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 35, topic = 1, data = 2184, QoS = 1
+00:27.557	ID:3	CLIENT.receive: Message received from source = 9 
+00:27.558	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.560	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.561	ID:9	BROKER.forwardPublishMessage: Forwarding msg 35 to client 5, with qos = 0
+00:27.564	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 35, topic = 1, data = 2184, QoS = 0
+00:27.571	ID:5	CLIENT.receive: Message received from source = 9 
+00:27.571	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.573	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.574	ID:9	BROKER.forwardPublishMessage: Forwarding msg 35 to client 6, with qos = 0
+00:27.577	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 35, topic = 1, data = 2184, QoS = 0
+00:27.584	ID:6	CLIENT.receive: Message received from source = 9 
+00:27.584	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.586	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.587	ID:9	BROKER.forwardPublishMessage: Forwarding msg 35 to client 8, with qos = 0
+00:27.590	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 35, topic = 1, data = 2184, QoS = 0
+00:27.597	ID:8	CLIENT.receive: Message received from source = 9 
+00:27.597	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.599	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.603	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 35, topic = 1, data = 2184, QoS = 0
+00:27.651	ID:8	CLIENT.readDone: Read the value 18841
+00:27.653	ID:8	CLIENT.readDone: Publishing the read value
+00:27.656	ID:8	CLIENT.sendPublish: Publish message passed to lower layer!
+00:27.660	ID:8	CLIENT.sendPublish: Payload length = 7, Source = 8, Destination = 9
+00:27.662	ID:9	BROKER.receive: Message received: Source = 8, Destination = 9 , Payload length = 7
+00:27.665	ID:8	CLIENT.sendPublish: Payload>>> msg_id = 8006, topic = 2, data = 18841, Qos = 1
+00:27.667	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 8006, topic = 2, data = 18841
+00:27.667	ID:8	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:27.670	ID:9	BROKER.forwardPublishMessage: Forwarding msg 36 to client 1, with qos = 0
+00:27.681	ID:1	CLIENT.receive: Message received from source = 9 
+00:27.681	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.683	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.685	ID:9	BROKER.forwardPublishMessage: Forwarding msg 36 to client 3, with qos = 1
+00:27.688	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 36, topic = 2, data = 18841, QoS = 0
+00:27.697	ID:3	CLIENT.receive: Message received from source = 9 
+00:27.697	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.700	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.701	ID:9	BROKER.forwardPublishMessage: Forwarding msg 36 to client 4, with qos = 0
+00:27.704	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 36, topic = 2, data = 18841, QoS = 1
+00:27.712	ID:4	CLIENT.receive: Message received from source = 9 
+00:27.712	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:27.714	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.716	ID:9	BROKER.forwardPublishMessage: Forwarding msg 36 to client 6, with qos = 1
+00:27.719	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 36, topic = 2, data = 18841, QoS = 0
+00:27.728	ID:6	CLIENT.receive: Message received from source = 9 
+00:27.728	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.730	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.731	ID:9	BROKER.forwardPublishMessage: Forwarding msg 36 to client 7, with qos = 1
+00:27.735	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 36, topic = 2, data = 18841, QoS = 1
+00:27.745	ID:7	CLIENT.receive: Message received from source = 9 
+00:27.745	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:27.747	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:27.752	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 36, topic = 2, data = 18841, QoS = 1
+00:28.452	ID:1	CLIENT.readDone: Read the value 23646
+00:28.453	ID:1	CLIENT.readDone: Publishing the read value
+00:28.456	ID:1	CLIENT.sendPublish: Publish message passed to lower layer!
+00:28.460	ID:1	CLIENT.sendPublish: Payload length = 7, Source = 1, Destination = 9
+00:28.465	ID:1	CLIENT.sendPublish: Payload>>> msg_id = 1007, topic = 1, data = 23646, Qos = 1
+00:28.467	ID:9	BROKER.receive: Message received: Source = 1, Destination = 9 , Payload length = 7
+00:28.468	ID:1	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:28.472	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 1007, topic = 1, data = 23646
+00:28.475	ID:9	BROKER.forwardPublishMessage: Forwarding msg 37 to client 2, with qos = 1
+00:28.490	ID:2	CLIENT.receive: Message received from source = 9 
+00:28.491	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:28.493	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.494	ID:9	BROKER.forwardPublishMessage: Forwarding msg 37 to client 3, with qos = 0
+00:28.497	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 37, topic = 1, data = 23646, QoS = 1
+00:28.501	ID:3	CLIENT.receive: Message received from source = 9 
+00:28.502	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:28.504	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.505	ID:9	BROKER.forwardPublishMessage: Forwarding msg 37 to client 5, with qos = 0
+00:28.508	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 37, topic = 1, data = 23646, QoS = 0
+00:28.515	ID:5	CLIENT.receive: Message received from source = 9 
+00:28.516	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:28.518	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.519	ID:9	BROKER.forwardPublishMessage: Forwarding msg 37 to client 6, with qos = 0
+00:28.522	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 37, topic = 1, data = 23646, QoS = 0
+00:28.528	ID:6	CLIENT.receive: Message received from source = 9 
+00:28.528	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:28.530	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.532	ID:9	BROKER.forwardPublishMessage: Forwarding msg 37 to client 8, with qos = 0
+00:28.535	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 37, topic = 1, data = 23646, QoS = 0
+00:28.546	ID:8	CLIENT.receive: Message received from source = 9 
+00:28.547	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:28.549	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.553	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 37, topic = 1, data = 23646, QoS = 0
+00:28.797	ID:2	CLIENT.readDone: Read the value 35470
+00:28.798	ID:2	CLIENT.readDone: Publishing the read value
+00:28.802	ID:2	CLIENT.sendPublish: Publish message passed to lower layer!
+00:28.805	ID:2	CLIENT.sendPublish: Payload length = 7, Source = 2, Destination = 9
+00:28.810	ID:2	CLIENT.sendPublish: Payload>>> msg_id = 2007, topic = 2, data = 35470, Qos = 1
+00:28.813	ID:9	BROKER.receive: Message received: Source = 2, Destination = 9 , Payload length = 7
+00:28.813	ID:2	CLIENT.sendDone: Packet sent with type = 2... and ack received
+00:28.817	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 2007, topic = 2, data = 35470
+00:28.820	ID:9	BROKER.forwardPublishMessage: Forwarding msg 38 to client 1, with qos = 0
+00:28.834	ID:1	CLIENT.receive: Message received from source = 9 
+00:28.835	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:28.837	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.838	ID:9	BROKER.forwardPublishMessage: Forwarding msg 38 to client 3, with qos = 1
+00:28.841	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 38, topic = 2, data = 35470, QoS = 0
+00:28.845	ID:3	CLIENT.receive: Message received from source = 9 
+00:28.845	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:28.847	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.848	ID:9	BROKER.forwardPublishMessage: Forwarding msg 38 to client 4, with qos = 0
+00:28.852	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 38, topic = 2, data = 35470, QoS = 1
+00:28.860	ID:4	CLIENT.receive: Message received from source = 9 
+00:28.860	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:28.862	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.864	ID:9	BROKER.forwardPublishMessage: Forwarding msg 38 to client 6, with qos = 1
+00:28.867	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 38, topic = 2, data = 35470, QoS = 0
+00:28.872	ID:6	CLIENT.receive: Message received from source = 9 
+00:28.872	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:28.875	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.876	ID:9	BROKER.forwardPublishMessage: Forwarding msg 38 to client 7, with qos = 1
+00:28.879	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 38, topic = 2, data = 35470, QoS = 1
+00:28.886	ID:7	CLIENT.receive: Message received from source = 9 
+00:28.887	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:28.889	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:28.893	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 38, topic = 2, data = 35470, QoS = 1
+00:29.885	ID:4	CLIENT.readDone: Read the value 59117
+00:29.886	ID:4	CLIENT.readDone: Publishing the read value
+00:29.890	ID:4	CLIENT.sendPublish: Publish message passed to lower layer!
+00:29.894	ID:4	CLIENT.sendPublish: Payload length = 7, Source = 4, Destination = 9
+00:29.897	ID:9	BROKER.receive: Message received: Source = 4, Destination = 9 , Payload length = 7
+00:29.898	ID:4	CLIENT.sendPublish: Payload>>> msg_id = 4007, topic = 1, data = 59117, Qos = 0
+00:29.901	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 4007, topic = 1, data = 59117
+00:29.901	ID:4	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:29.905	ID:9	BROKER.forwardPublishMessage: Forwarding msg 39 to client 2, with qos = 1
+00:29.917	ID:2	CLIENT.receive: Message received from source = 9 
+00:29.918	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:29.920	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:29.921	ID:9	BROKER.forwardPublishMessage: Forwarding msg 39 to client 3, with qos = 0
+00:29.924	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 39, topic = 1, data = 59117, QoS = 1
+00:29.934	ID:3	CLIENT.receive: Message received from source = 9 
+00:29.934	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:29.936	ID:3	CLIENT.receive: Payload length = 7, Destination = 9
+00:29.938	ID:9	BROKER.forwardPublishMessage: Forwarding msg 39 to client 5, with qos = 0
+00:29.941	ID:3	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 39, topic = 1, data = 59117, QoS = 0
+00:29.953	ID:5	CLIENT.receive: Message received from source = 9 
+00:29.953	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:29.953	ID:3	CLIENT.readDone: Read the value 54467
+00:29.955	ID:3	CLIENT.readDone: Publishing the read value
+00:29.955	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:29.957	ID:9	BROKER.forwardPublishMessage: Forwarding msg 39 to client 6, with qos = 0
+00:29.958	ID:3	CLIENT.sendPublish: Publish message passed to lower layer!
+00:29.960	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 39, topic = 1, data = 59117, QoS = 0
+00:29.961	ID:3	CLIENT.sendPublish: Payload length = 7, Source = 3, Destination = 9
+00:29.965	ID:3	CLIENT.sendPublish: Payload>>> msg_id = 3007, topic = 0, data = 54467, Qos = 0
+00:29.973	ID:3	CLIENT.sendDone: Packet sent with type = 2... and not waiting for ack!
+00:29.973	ID:9	BROKER.receive: Message received: Source = 3, Destination = 9 , Payload length = 7
+00:29.974	ID:6	CLIENT.receive: Message received from source = 9 
+00:29.975	ID:9	BROKER.receive: The broker is busy, saving the message in queue
+00:29.976	ID:6	CLIENT.receive: Payload length = 7, Destination = 9
+00:29.978	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:29.981	ID:6	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 39, topic = 1, data = 59117, QoS = 0
+00:29.981	ID:9	BROKER.forwardPublishMessage: Forwarding msg 39 to client 8, with qos = 0
+00:29.994	ID:8	CLIENT.receive: Message received from source = 9 
+00:29.995	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:29.997	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:29.997	ID:9	BROKER.forwardPublishMessage: Sending message in queue of topic 0
+00:30.001	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 39, topic = 1, data = 59117, QoS = 0
+00:30.001	ID:9	BROKER.process_pub_message: msg_type = 2, msg_id = 40, topic = 0, data = 54467
+00:30.005	ID:9	BROKER.forwardPublishMessage: Forwarding msg 40 to client 1, with qos = 0
+00:30.017	ID:1	CLIENT.receive: Message received from source = 9 
+00:30.017	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:30.019	ID:1	CLIENT.receive: Payload length = 7, Destination = 9
+00:30.021	ID:9	BROKER.forwardPublishMessage: Forwarding msg 40 to client 2, with qos = 1
+00:30.024	ID:1	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 40, topic = 0, data = 54467, QoS = 0
+00:30.036	ID:2	CLIENT.receive: Message received from source = 9 
+00:30.036	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:30.039	ID:2	CLIENT.receive: Payload length = 7, Destination = 9
+00:30.040	ID:9	BROKER.forwardPublishMessage: Forwarding msg 40 to client 4, with qos = 1
+00:30.043	ID:2	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 40, topic = 0, data = 54467, QoS = 1
+00:30.047	ID:4	CLIENT.receive: Message received from source = 9 
+00:30.048	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:30.050	ID:4	CLIENT.receive: Payload length = 7, Destination = 9
+00:30.051	ID:9	BROKER.forwardPublishMessage: Forwarding msg 40 to client 5, with qos = 0
+00:30.054	ID:4	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 40, topic = 0, data = 54467, QoS = 1
+00:30.062	ID:5	CLIENT.receive: Message received from source = 9 
+00:30.063	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:30.065	ID:5	CLIENT.receive: Payload length = 7, Destination = 9
+00:30.066	ID:9	BROKER.forwardPublishMessage: Forwarding msg 40 to client 7, with qos = 1
+00:30.069	ID:5	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 40, topic = 0, data = 54467, QoS = 0
+00:30.080	ID:7	CLIENT.receive: Message received from source = 9 
+00:30.080	ID:9	BROKER.sendDone: Packet sent... and ack received
+00:30.082	ID:7	CLIENT.receive: Payload length = 7, Destination = 9
+00:30.083	ID:9	BROKER.forwardPublishMessage: Forwarding msg 40 to client 8, with qos = 0
+00:30.087	ID:7	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 40, topic = 0, data = 54467, QoS = 1
+00:30.090	ID:8	CLIENT.receive: Message received from source = 9 
+00:30.090	ID:9	BROKER.sendDone: Packet sent... and not waiting for ack!
+00:30.092	ID:8	CLIENT.receive: Payload length = 7, Destination = 9
+00:30.097	ID:8	CLIENT.receive: Payload>>> msg_type = 2, msg_id = 40, topic = 0, data = 54467, QoS = 0
