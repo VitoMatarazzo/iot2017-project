@@ -100,7 +100,6 @@ implementation {
         msg->msg_type = payload->msg_type;
         msg->topic = payload->topic;
         msg->data = payload->data;
-	    msg->dup_flag = 0;
 	    msg->msg_id = msg_cnt;
 	    msg_cnt++;
 	    client = 0;
@@ -246,14 +245,12 @@ implementation {
 			        dbg("radio", " and ack received\n");
 			        printf(" and ack received\n");
 			        //send the same message to the next subscribed client, if present
-			        pub_msg->dup_flag = 0;
 			        client++;
 			        forwardPublishMessage(pub_msg);
 		        }
 		        else {
 	                dbg("radio", " but ack was not received. Trying to resend the packet again\n");
 			        printf(" but ack was not received. Trying to resend the packet again\n");
-			        pub_msg->dup_flag = 1;
 			        call PacketAcknowledgements.requestAck( &packet );
 			        call AMSend.send(call AMPacket.destination (buf), &packet, sizeof(pub_msg_t));
 		        }
@@ -262,7 +259,6 @@ implementation {
 		        dbg("radio", " and not waiting for ack!\n");
 			    printf(" and not waiting for ack!\n");
 			    //send the same message to the next subscribed client, if present
-			    pub_msg->dup_flag = 0;
 			    client++;
 			    forwardPublishMessage(pub_msg);
 		    }

@@ -15,8 +15,6 @@ typedef nx_struct{
 	nx_uint8_t topic;
 	nx_uint16_t data;
 	nx_uint8_t qos;
-	nx_uint8_t dup_flag;     //duplicate flag, set to true if the message is resent because the
-			            //broker didn't acknowledge the original msg. Useful when QoS > 0
 } pub_msg_t;
 
 typedef nx_struct {

@@ -77,7 +77,6 @@ implementation {
         pub_msg_t* pub_msg = (pub_msg_t*)(call Packet.getPayload(&packet,sizeof(pub_msg_t)));
         dbg("timeout","Retransmission timeout fired!\n");
 		printf("CLIENT.timeoutFired: Retransmission timeout fired!\n");
-        pub_msg->dup_flag = 1;
         sendPublish(pub_msg);
     }
     
@@ -218,9 +217,7 @@ implementation {
         msg_cnt++;
         msg->qos = (uint8_t) call Random.rand16()%2;
         msg->topic = my_topic;
-
         msg->data = new_value;
-        msg->dup_flag = 0;
         sendPublish(msg);    
 	}
 	
